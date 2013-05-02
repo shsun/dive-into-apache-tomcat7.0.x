@@ -1,0 +1,1138 @@
+2013-4-24 11:48:12 org.apache.catalina.core.AprLifecycleListener init
+信息: The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: D:\Java\jdk1.6.0_23\jre\bin;.;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;D:\Java\jdk1.6.0_23\jre\bin;D:/Java/jre6/bin/client;D:/Java/jre6/bin;D:/Java/jre6/lib/i386;D:\app\shsun\product\11.2.0\dbhome_1\bin;C:\Program Files\AMD APP\bin\x86;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;D:\Java\jdk1.6.0_23\bin;D:\Java\apache-ant-1.8.2\bin;D:\Java\apache-ant-1.8.2\lib;C:\Program Files\ATI Technologies\ATI.ACE\Core-Static;C:\Program Files\MySQL\MySQL Server 5.5\bin;D:\Java\apache-maven-3.0.4\bin;D:\Java\apache-maven-3.0.4\lib;;D:\Program Files\eclipse-j2ee;
+2013-4-24 11:48:13 org.apache.coyote.AbstractProtocol init
+信息: Initializing ProtocolHandler ["http-bio-8080"]
+2013-4-24 11:48:13 org.apache.coyote.AbstractProtocol init
+信息: Initializing ProtocolHandler ["ajp-bio-8009"]
+2013-4-24 11:48:13 org.apache.catalina.startup.Catalina load
+信息: Initialization processed in 1877 ms
+2013-4-24 11:48:14 org.apache.catalina.core.StandardService startInternal
+信息: Starting service Catalina
+2013-4-24 11:48:14 org.apache.catalina.core.StandardEngine startInternal
+信息: Starting Servlet Engine: Apache Tomcat/@VERSION@
+2013-4-24 11:48:14 org.apache.catalina.startup.HostConfig deployDirectory
+信息: Deploying web application directory D:\repos\tomcat\launch\webapps\docs
+2013-4-24 11:48:14 org.apache.catalina.util.SessionIdGenerator createSecureRandom
+信息: Creation of SecureRandom instance for session ID generation using [SHA1PRNG] took [140] milliseconds.
+2013-4-24 11:48:14 org.apache.catalina.startup.HostConfig deployDirectory
+信息: Deploying web application directory D:\repos\tomcat\launch\webapps\examples
+2013-4-24 11:48:14 org.apache.catalina.startup.HostConfig deployDirectory
+信息: Deploying web application directory D:\repos\tomcat\launch\webapps\host-manager
+2013-4-24 11:48:14 org.apache.catalina.startup.HostConfig deployDirectory
+信息: Deploying web application directory D:\repos\tomcat\launch\webapps\manager
+2013-4-24 11:48:14 org.apache.catalina.startup.HostConfig deployDirectory
+信息: Deploying web application directory D:\repos\tomcat\launch\webapps\ROOT
+2013-4-24 11:48:14 org.apache.coyote.AbstractProtocol start
+信息: Starting ProtocolHandler ["http-bio-8080"]
+2013-4-24 11:48:14 org.apache.coyote.AbstractProtocol start
+信息: Starting ProtocolHandler ["ajp-bio-8009"]
+2013-4-24 11:48:14 org.apache.catalina.startup.Catalina start
+信息: Server startup in 961 ms
+2013-4-24 11:49:09 org.apache.catalina.core.AprLifecycleListener init
+信息: The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: D:\Java\jdk1.6.0_23\jre\bin;.;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;D:\Java\jdk1.6.0_23\jre\bin;D:/Java/jre6/bin/client;D:/Java/jre6/bin;D:/Java/jre6/lib/i386;D:\app\shsun\product\11.2.0\dbhome_1\bin;C:\Program Files\AMD APP\bin\x86;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;D:\Java\jdk1.6.0_23\bin;D:\Java\apache-ant-1.8.2\bin;D:\Java\apache-ant-1.8.2\lib;C:\Program Files\ATI Technologies\ATI.ACE\Core-Static;C:\Program Files\MySQL\MySQL Server 5.5\bin;D:\Java\apache-maven-3.0.4\bin;D:\Java\apache-maven-3.0.4\lib;;D:\Program Files\eclipse-j2ee;
+2013-4-24 11:49:10 org.apache.coyote.AbstractProtocol init
+信息: Initializing ProtocolHandler ["http-bio-8080"]
+2013-4-24 11:49:10 org.apache.coyote.AbstractProtocol init
+信息: Initializing ProtocolHandler ["ajp-bio-8009"]
+2013-4-24 11:49:10 org.apache.catalina.startup.Catalina load
+信息: Initialization processed in 720 ms
+2013-4-24 11:49:10 org.apache.catalina.core.StandardService startInternal
+信息: Starting service Catalina
+2013-4-24 11:49:10 org.apache.catalina.core.StandardEngine startInternal
+信息: Starting Servlet Engine: Apache Tomcat/@VERSION@
+2013-4-24 11:49:10 org.apache.catalina.startup.HostConfig deployDirectory
+信息: Deploying web application directory D:\repos\tomcat\launch\webapps\docs
+2013-4-24 11:49:10 org.apache.catalina.startup.HostConfig deployDirectory
+信息: Deploying web application directory D:\repos\tomcat\launch\webapps\examples
+2013-4-24 11:49:10 org.apache.catalina.startup.HostConfig deployDirectory
+信息: Deploying web application directory D:\repos\tomcat\launch\webapps\host-manager
+2013-4-24 11:49:10 org.apache.catalina.startup.HostConfig deployDirectory
+信息: Deploying web application directory D:\repos\tomcat\launch\webapps\manager
+2013-4-24 11:49:11 org.apache.catalina.startup.HostConfig deployDirectory
+信息: Deploying web application directory D:\repos\tomcat\launch\webapps\ROOT
+2013-4-24 11:49:11 org.apache.coyote.AbstractProtocol start
+信息: Starting ProtocolHandler ["http-bio-8080"]
+2013-4-24 11:49:11 org.apache.coyote.AbstractProtocol start
+信息: Starting ProtocolHandler ["ajp-bio-8009"]
+2013-4-24 11:49:11 org.apache.catalina.startup.Catalina start
+信息: Server startup in 671 ms
+2013-4-24 12:17:26 org.apache.catalina.core.AprLifecycleListener init
+信息: The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: D:\Java\jdk1.6.0_23\jre\bin;.;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;D:\Java\jdk1.6.0_23\jre\bin;D:/Java/jre6/bin/client;D:/Java/jre6/bin;D:/Java/jre6/lib/i386;D:\app\shsun\product\11.2.0\dbhome_1\bin;C:\Program Files\AMD APP\bin\x86;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;D:\Java\jdk1.6.0_23\bin;D:\Java\apache-ant-1.8.2\bin;D:\Java\apache-ant-1.8.2\lib;C:\Program Files\ATI Technologies\ATI.ACE\Core-Static;C:\Program Files\MySQL\MySQL Server 5.5\bin;D:\Java\apache-maven-3.0.4\bin;D:\Java\apache-maven-3.0.4\lib;;D:\Program Files\eclipse-j2ee;
+2013-4-24 12:17:27 org.apache.coyote.AbstractProtocol init
+信息: Initializing ProtocolHandler ["http-bio-8080"]
+2013-4-24 12:17:27 org.apache.coyote.AbstractProtocol init
+信息: Initializing ProtocolHandler ["ajp-bio-8009"]
+2013-4-24 12:17:27 org.apache.catalina.startup.Catalina load
+信息: Initialization processed in 1734 ms
+2013-4-24 12:18:42 org.apache.catalina.core.StandardService startInternal
+信息: Starting service Catalina
+2013-4-24 12:18:42 org.apache.catalina.core.StandardEngine startInternal
+信息: Starting Servlet Engine: Apache Tomcat/@VERSION@
+2013-4-24 12:18:42 org.apache.catalina.startup.HostConfig deployDirectory
+信息: Deploying web application directory D:\repos\tomcat\launch\webapps\docs
+2013-4-24 12:18:42 org.apache.catalina.startup.HostConfig deployDirectory
+信息: Deploying web application directory D:\repos\tomcat\launch\webapps\examples
+2013-4-24 12:18:42 org.apache.catalina.startup.HostConfig deployDirectory
+信息: Deploying web application directory D:\repos\tomcat\launch\webapps\host-manager
+2013-4-24 12:18:42 org.apache.catalina.startup.HostConfig deployDirectory
+信息: Deploying web application directory D:\repos\tomcat\launch\webapps\manager
+2013-4-24 12:18:42 org.apache.catalina.startup.HostConfig deployDirectory
+信息: Deploying web application directory D:\repos\tomcat\launch\webapps\ROOT
+2013-4-24 12:18:42 org.apache.coyote.AbstractProtocol start
+信息: Starting ProtocolHandler ["http-bio-8080"]
+2013-4-24 12:18:42 org.apache.coyote.AbstractProtocol start
+信息: Starting ProtocolHandler ["ajp-bio-8009"]
+2013-4-24 12:18:42 org.apache.catalina.startup.Catalina start
+信息: Server startup in 759 ms
+2013-4-24 12:40:29 org.apache.catalina.core.AprLifecycleListener init
+信息: The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: D:\Java\jdk1.6.0_23\jre\bin;.;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;D:\Java\jdk1.6.0_23\jre\bin;D:/Java/jre6/bin/client;D:/Java/jre6/bin;D:/Java/jre6/lib/i386;D:\app\shsun\product\11.2.0\dbhome_1\bin;C:\Program Files\AMD APP\bin\x86;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;D:\Java\jdk1.6.0_23\bin;D:\Java\apache-ant-1.8.2\bin;D:\Java\apache-ant-1.8.2\lib;C:\Program Files\ATI Technologies\ATI.ACE\Core-Static;C:\Program Files\MySQL\MySQL Server 5.5\bin;D:\Java\apache-maven-3.0.4\bin;D:\Java\apache-maven-3.0.4\lib;;D:\Program Files\eclipse-j2ee;
+2013-4-24 12:40:29 org.apache.coyote.AbstractProtocol init
+信息: Initializing ProtocolHandler ["http-bio-8080"]
+2013-4-24 12:40:29 org.apache.coyote.AbstractProtocol init
+信息: Initializing ProtocolHandler ["ajp-bio-8009"]
+2013-4-24 12:40:29 org.apache.catalina.startup.Catalina load
+信息: Initialization processed in 599 ms
+2013-4-24 12:40:29 org.apache.catalina.core.StandardService startInternal
+信息: Starting service Catalina
+2013-4-24 12:40:29 org.apache.catalina.core.StandardEngine startInternal
+信息: Starting Servlet Engine: Apache Tomcat/@VERSION@
+2013-4-24 15:49:21 org.apache.catalina.core.AprLifecycleListener init
+信息: The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: D:\Java\jdk1.6.0_23\jre\bin;.;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;D:\Java\jdk1.6.0_23\jre\bin;D:/Java/jre6/bin/client;D:/Java/jre6/bin;D:/Java/jre6/lib/i386;D:\app\shsun\product\11.2.0\dbhome_1\bin;C:\Program Files\AMD APP\bin\x86;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;D:\Java\jdk1.6.0_23\bin;D:\Java\apache-ant-1.8.2\bin;D:\Java\apache-ant-1.8.2\lib;C:\Program Files\ATI Technologies\ATI.ACE\Core-Static;C:\Program Files\MySQL\MySQL Server 5.5\bin;D:\Java\apache-maven-3.0.4\bin;D:\Java\apache-maven-3.0.4\lib;;D:\Program Files\eclipse-j2ee;
+2013-4-24 15:49:21 org.apache.coyote.AbstractProtocol init
+信息: Initializing ProtocolHandler ["http-bio-8080"]
+2013-4-24 15:49:22 org.apache.coyote.AbstractProtocol init
+信息: Initializing ProtocolHandler ["ajp-bio-8009"]
+2013-4-24 15:49:22 org.apache.catalina.startup.Catalina load
+信息: Initialization processed in 665 ms
+2013-4-24 15:49:22 org.apache.catalina.core.StandardService startInternal
+信息: Starting service Catalina
+2013-4-24 15:49:22 org.apache.catalina.core.StandardEngine startInternal
+信息: Starting Servlet Engine: Apache Tomcat/@VERSION@
+2013-4-24 15:49:22 org.apache.catalina.startup.HostConfig deployDirectory
+信息: Deploying web application directory D:\repos\tomcat\launch\webapps\docs
+2013-4-24 15:49:22 org.apache.catalina.startup.HostConfig deployDirectory
+信息: Deploying web application directory D:\repos\tomcat\launch\webapps\examples
+2013-4-24 15:49:22 org.apache.catalina.startup.HostConfig deployDirectory
+信息: Deploying web application directory D:\repos\tomcat\launch\webapps\host-manager
+2013-4-24 15:49:22 org.apache.catalina.startup.HostConfig deployDirectory
+信息: Deploying web application directory D:\repos\tomcat\launch\webapps\manager
+2013-4-24 15:49:22 org.apache.catalina.startup.HostConfig deployDirectory
+信息: Deploying web application directory D:\repos\tomcat\launch\webapps\ROOT
+2013-4-24 15:49:22 org.apache.coyote.AbstractProtocol start
+信息: Starting ProtocolHandler ["http-bio-8080"]
+2013-4-24 15:49:22 org.apache.coyote.AbstractProtocol start
+信息: Starting ProtocolHandler ["ajp-bio-8009"]
+2013-4-24 15:49:22 org.apache.catalina.startup.Catalina start
+信息: Server startup in 691 ms
+2013-4-24 15:50:23 org.apache.catalina.core.AprLifecycleListener init
+信息: The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: D:\Java\jdk1.6.0_23\jre\bin;.;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;D:\Java\jdk1.6.0_23\jre\bin;D:/Java/jre6/bin/client;D:/Java/jre6/bin;D:/Java/jre6/lib/i386;D:\app\shsun\product\11.2.0\dbhome_1\bin;C:\Program Files\AMD APP\bin\x86;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;D:\Java\jdk1.6.0_23\bin;D:\Java\apache-ant-1.8.2\bin;D:\Java\apache-ant-1.8.2\lib;C:\Program Files\ATI Technologies\ATI.ACE\Core-Static;C:\Program Files\MySQL\MySQL Server 5.5\bin;D:\Java\apache-maven-3.0.4\bin;D:\Java\apache-maven-3.0.4\lib;;D:\Program Files\eclipse-j2ee;
+2013-4-24 15:50:23 org.apache.coyote.AbstractProtocol init
+信息: Initializing ProtocolHandler ["http-bio-8080"]
+2013-4-24 15:50:23 org.apache.coyote.AbstractProtocol init
+信息: Initializing ProtocolHandler ["ajp-bio-8009"]
+2013-4-24 15:50:23 org.apache.catalina.startup.Catalina load
+信息: Initialization processed in 682 ms
+2013-4-24 15:50:23 org.apache.catalina.core.StandardService startInternal
+信息: Starting service Catalina
+2013-4-24 15:50:23 org.apache.catalina.core.StandardEngine startInternal
+信息: Starting Servlet Engine: Apache Tomcat/@VERSION@
+2013-4-24 15:50:23 org.apache.catalina.startup.HostConfig deployDirectory
+信息: Deploying web application directory D:\repos\tomcat\launch\webapps\docs
+2013-4-24 15:50:23 org.apache.catalina.startup.HostConfig deployDirectory
+信息: Deploying web application directory D:\repos\tomcat\launch\webapps\examples
+2013-4-24 15:50:24 org.apache.catalina.startup.HostConfig deployDirectory
+信息: Deploying web application directory D:\repos\tomcat\launch\webapps\host-manager
+2013-4-24 15:50:24 org.apache.catalina.startup.HostConfig deployDirectory
+信息: Deploying web application directory D:\repos\tomcat\launch\webapps\manager
+2013-4-24 15:50:24 org.apache.catalina.startup.HostConfig deployDirectory
+信息: Deploying web application directory D:\repos\tomcat\launch\webapps\ROOT
+2013-4-24 15:50:24 org.apache.coyote.AbstractProtocol start
+信息: Starting ProtocolHandler ["http-bio-8080"]
+2013-4-24 15:50:24 org.apache.coyote.AbstractProtocol start
+信息: Starting ProtocolHandler ["ajp-bio-8009"]
+2013-4-24 15:50:24 org.apache.catalina.startup.Catalina start
+信息: Server startup in 838 ms
+2013-4-24 15:50:51 org.apache.catalina.core.AprLifecycleListener init
+信息: The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: D:\Java\jdk1.6.0_23\jre\bin;.;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;D:\Java\jdk1.6.0_23\jre\bin;D:/Java/jre6/bin/client;D:/Java/jre6/bin;D:/Java/jre6/lib/i386;D:\app\shsun\product\11.2.0\dbhome_1\bin;C:\Program Files\AMD APP\bin\x86;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;D:\Java\jdk1.6.0_23\bin;D:\Java\apache-ant-1.8.2\bin;D:\Java\apache-ant-1.8.2\lib;C:\Program Files\ATI Technologies\ATI.ACE\Core-Static;C:\Program Files\MySQL\MySQL Server 5.5\bin;D:\Java\apache-maven-3.0.4\bin;D:\Java\apache-maven-3.0.4\lib;;D:\Program Files\eclipse-j2ee;
+2013-4-24 15:50:51 org.apache.coyote.AbstractProtocol init
+信息: Initializing ProtocolHandler ["http-bio-8080"]
+2013-4-24 15:50:51 org.apache.coyote.AbstractProtocol init
+信息: Initializing ProtocolHandler ["ajp-bio-8009"]
+2013-4-24 15:50:51 org.apache.catalina.startup.Catalina load
+信息: Initialization processed in 709 ms
+2013-4-24 15:50:51 org.apache.catalina.core.StandardService startInternal
+信息: Starting service Catalina
+2013-4-24 15:50:51 org.apache.catalina.core.StandardEngine startInternal
+信息: Starting Servlet Engine: Apache Tomcat/@VERSION@
+2013-4-24 15:53:13 org.apache.catalina.startup.HostConfig deployDirectory
+信息: Deploying web application directory D:\repos\tomcat\launch\webapps\docs
+2013-4-24 15:53:13 org.apache.catalina.util.SessionIdGenerator createSecureRandom
+信息: Creation of SecureRandom instance for session ID generation using [SHA1PRNG] took [125] milliseconds.
+2013-4-24 15:53:13 org.apache.catalina.startup.HostConfig deployDirectory
+信息: Deploying web application directory D:\repos\tomcat\launch\webapps\examples
+2013-4-24 15:53:14 org.apache.catalina.startup.HostConfig deployDirectory
+信息: Deploying web application directory D:\repos\tomcat\launch\webapps\host-manager
+2013-4-24 15:53:14 org.apache.catalina.startup.HostConfig deployDirectory
+信息: Deploying web application directory D:\repos\tomcat\launch\webapps\manager
+2013-4-24 15:53:14 org.apache.catalina.startup.HostConfig deployDirectory
+信息: Deploying web application directory D:\repos\tomcat\launch\webapps\ROOT
+2013-4-24 15:53:26 org.apache.coyote.AbstractProtocol start
+信息: Starting ProtocolHandler ["http-bio-8080"]
+2013-4-24 15:53:26 org.apache.coyote.AbstractProtocol start
+信息: Starting ProtocolHandler ["ajp-bio-8009"]
+2013-4-24 15:53:26 org.apache.catalina.startup.Catalina start
+信息: Server startup in 154633 ms
+2013-4-24 15:54:09 org.apache.catalina.core.AprLifecycleListener init
+信息: The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: D:\Java\jdk1.6.0_23\jre\bin;.;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;D:\Java\jdk1.6.0_23\jre\bin;D:/Java/jre6/bin/client;D:/Java/jre6/bin;D:/Java/jre6/lib/i386;D:\app\shsun\product\11.2.0\dbhome_1\bin;C:\Program Files\AMD APP\bin\x86;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;D:\Java\jdk1.6.0_23\bin;D:\Java\apache-ant-1.8.2\bin;D:\Java\apache-ant-1.8.2\lib;C:\Program Files\ATI Technologies\ATI.ACE\Core-Static;C:\Program Files\MySQL\MySQL Server 5.5\bin;D:\Java\apache-maven-3.0.4\bin;D:\Java\apache-maven-3.0.4\lib;;D:\Program Files\eclipse-j2ee;
+2013-4-24 15:54:10 org.apache.coyote.AbstractProtocol init
+信息: Initializing ProtocolHandler ["http-bio-8080"]
+2013-4-24 15:54:10 org.apache.coyote.AbstractProtocol init
+严重: Failed to initialize end point associated with ProtocolHandler ["http-bio-8080"]
+java.net.BindException: Address already in use: JVM_Bind <null>:8080
+	at org.apache.tomcat.util.net.JIoEndpoint.bind(JIoEndpoint.java:406)
+	at org.apache.tomcat.util.net.AbstractEndpoint.init(AbstractEndpoint.java:610)
+	at org.apache.coyote.AbstractProtocol.init(AbstractProtocol.java:429)
+	at org.apache.coyote.http11.AbstractHttp11JsseProtocol.init(AbstractHttp11JsseProtocol.java:119)
+	at org.apache.catalina.connector.Connector.initInternal(Connector.java:981)
+	at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:102)
+	at org.apache.catalina.core.StandardService.initInternal(StandardService.java:559)
+	at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:102)
+	at org.apache.catalina.core.StandardServer.initInternal(StandardServer.java:814)
+	at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:102)
+	at org.apache.catalina.startup.Catalina.load(Catalina.java:633)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
+	at java.lang.reflect.Method.invoke(Method.java:597)
+	at org.apache.catalina.startup.Bootstrap.load(Bootstrap.java:281)
+	at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:455)
+Caused by: java.net.BindException: Address already in use: JVM_Bind
+	at java.net.PlainSocketImpl.socketBind(Native Method)
+	at java.net.PlainSocketImpl.bind(PlainSocketImpl.java:365)
+	at java.net.ServerSocket.bind(ServerSocket.java:328)
+	at java.net.ServerSocket.<init>(ServerSocket.java:194)
+	at java.net.ServerSocket.<init>(ServerSocket.java:150)
+	at org.apache.tomcat.util.net.DefaultServerSocketFactory.createSocket(DefaultServerSocketFactory.java:49)
+	at org.apache.tomcat.util.net.JIoEndpoint.bind(JIoEndpoint.java:393)
+	... 16 more
+2013-4-24 15:54:10 org.apache.catalina.core.StandardService initInternal
+严重: Failed to initialize connector [Connector[HTTP/1.1-8080]]
+org.apache.catalina.LifecycleException: Failed to initialize component [Connector[HTTP/1.1-8080]]
+	at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:106)
+	at org.apache.catalina.core.StandardService.initInternal(StandardService.java:559)
+	at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:102)
+	at org.apache.catalina.core.StandardServer.initInternal(StandardServer.java:814)
+	at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:102)
+	at org.apache.catalina.startup.Catalina.load(Catalina.java:633)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
+	at java.lang.reflect.Method.invoke(Method.java:597)
+	at org.apache.catalina.startup.Bootstrap.load(Bootstrap.java:281)
+	at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:455)
+Caused by: org.apache.catalina.LifecycleException: Protocol handler initialization failed
+	at org.apache.catalina.connector.Connector.initInternal(Connector.java:983)
+	at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:102)
+	... 11 more
+Caused by: java.net.BindException: Address already in use: JVM_Bind <null>:8080
+	at org.apache.tomcat.util.net.JIoEndpoint.bind(JIoEndpoint.java:406)
+	at org.apache.tomcat.util.net.AbstractEndpoint.init(AbstractEndpoint.java:610)
+	at org.apache.coyote.AbstractProtocol.init(AbstractProtocol.java:429)
+	at org.apache.coyote.http11.AbstractHttp11JsseProtocol.init(AbstractHttp11JsseProtocol.java:119)
+	at org.apache.catalina.connector.Connector.initInternal(Connector.java:981)
+	... 12 more
+Caused by: java.net.BindException: Address already in use: JVM_Bind
+	at java.net.PlainSocketImpl.socketBind(Native Method)
+	at java.net.PlainSocketImpl.bind(PlainSocketImpl.java:365)
+	at java.net.ServerSocket.bind(ServerSocket.java:328)
+	at java.net.ServerSocket.<init>(ServerSocket.java:194)
+	at java.net.ServerSocket.<init>(ServerSocket.java:150)
+	at org.apache.tomcat.util.net.DefaultServerSocketFactory.createSocket(DefaultServerSocketFactory.java:49)
+	at org.apache.tomcat.util.net.JIoEndpoint.bind(JIoEndpoint.java:393)
+	... 16 more
+2013-4-24 15:54:10 org.apache.coyote.AbstractProtocol init
+信息: Initializing ProtocolHandler ["ajp-bio-8009"]
+2013-4-24 15:54:10 org.apache.coyote.AbstractProtocol init
+严重: Failed to initialize end point associated with ProtocolHandler ["ajp-bio-8009"]
+java.net.BindException: Address already in use: JVM_Bind <null>:8009
+	at org.apache.tomcat.util.net.JIoEndpoint.bind(JIoEndpoint.java:406)
+	at org.apache.tomcat.util.net.AbstractEndpoint.init(AbstractEndpoint.java:610)
+	at org.apache.coyote.AbstractProtocol.init(AbstractProtocol.java:429)
+	at org.apache.catalina.connector.Connector.initInternal(Connector.java:981)
+	at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:102)
+	at org.apache.catalina.core.StandardService.initInternal(StandardService.java:559)
+	at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:102)
+	at org.apache.catalina.core.StandardServer.initInternal(StandardServer.java:814)
+	at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:102)
+	at org.apache.catalina.startup.Catalina.load(Catalina.java:633)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
+	at java.lang.reflect.Method.invoke(Method.java:597)
+	at org.apache.catalina.startup.Bootstrap.load(Bootstrap.java:281)
+	at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:455)
+Caused by: java.net.BindException: Address already in use: JVM_Bind
+	at java.net.PlainSocketImpl.socketBind(Native Method)
+	at java.net.PlainSocketImpl.bind(PlainSocketImpl.java:365)
+	at java.net.ServerSocket.bind(ServerSocket.java:328)
+	at java.net.ServerSocket.<init>(ServerSocket.java:194)
+	at java.net.ServerSocket.<init>(ServerSocket.java:150)
+	at org.apache.tomcat.util.net.DefaultServerSocketFactory.createSocket(DefaultServerSocketFactory.java:49)
+	at org.apache.tomcat.util.net.JIoEndpoint.bind(JIoEndpoint.java:393)
+	... 15 more
+2013-4-24 15:54:10 org.apache.catalina.core.StandardService initInternal
+严重: Failed to initialize connector [Connector[AJP/1.3-8009]]
+org.apache.catalina.LifecycleException: Failed to initialize component [Connector[AJP/1.3-8009]]
+	at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:106)
+	at org.apache.catalina.core.StandardService.initInternal(StandardService.java:559)
+	at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:102)
+	at org.apache.catalina.core.StandardServer.initInternal(StandardServer.java:814)
+	at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:102)
+	at org.apache.catalina.startup.Catalina.load(Catalina.java:633)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
+	at java.lang.reflect.Method.invoke(Method.java:597)
+	at org.apache.catalina.startup.Bootstrap.load(Bootstrap.java:281)
+	at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:455)
+Caused by: org.apache.catalina.LifecycleException: Protocol handler initialization failed
+	at org.apache.catalina.connector.Connector.initInternal(Connector.java:983)
+	at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:102)
+	... 11 more
+Caused by: java.net.BindException: Address already in use: JVM_Bind <null>:8009
+	at org.apache.tomcat.util.net.JIoEndpoint.bind(JIoEndpoint.java:406)
+	at org.apache.tomcat.util.net.AbstractEndpoint.init(AbstractEndpoint.java:610)
+	at org.apache.coyote.AbstractProtocol.init(AbstractProtocol.java:429)
+	at org.apache.catalina.connector.Connector.initInternal(Connector.java:981)
+	... 12 more
+Caused by: java.net.BindException: Address already in use: JVM_Bind
+	at java.net.PlainSocketImpl.socketBind(Native Method)
+	at java.net.PlainSocketImpl.bind(PlainSocketImpl.java:365)
+	at java.net.ServerSocket.bind(ServerSocket.java:328)
+	at java.net.ServerSocket.<init>(ServerSocket.java:194)
+	at java.net.ServerSocket.<init>(ServerSocket.java:150)
+	at org.apache.tomcat.util.net.DefaultServerSocketFactory.createSocket(DefaultServerSocketFactory.java:49)
+	at org.apache.tomcat.util.net.JIoEndpoint.bind(JIoEndpoint.java:393)
+	... 15 more
+2013-4-24 15:54:10 org.apache.catalina.startup.Catalina load
+信息: Initialization processed in 685 ms
+2013-4-24 15:54:10 org.apache.catalina.core.StandardService startInternal
+信息: Starting service Catalina
+2013-4-24 15:54:10 org.apache.catalina.core.StandardEngine startInternal
+信息: Starting Servlet Engine: Apache Tomcat/@VERSION@
+2013-4-24 15:54:10 org.apache.catalina.startup.HostConfig deployDirectory
+信息: Deploying web application directory D:\repos\tomcat\launch\webapps\docs
+2013-4-24 15:54:15 org.apache.catalina.core.AprLifecycleListener init
+信息: The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: D:\Java\jdk1.6.0_23\jre\bin;.;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;D:\Java\jdk1.6.0_23\jre\bin;D:/Java/jre6/bin/client;D:/Java/jre6/bin;D:/Java/jre6/lib/i386;D:\app\shsun\product\11.2.0\dbhome_1\bin;C:\Program Files\AMD APP\bin\x86;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;D:\Java\jdk1.6.0_23\bin;D:\Java\apache-ant-1.8.2\bin;D:\Java\apache-ant-1.8.2\lib;C:\Program Files\ATI Technologies\ATI.ACE\Core-Static;C:\Program Files\MySQL\MySQL Server 5.5\bin;D:\Java\apache-maven-3.0.4\bin;D:\Java\apache-maven-3.0.4\lib;;D:\Program Files\eclipse-j2ee;
+2013-4-24 15:54:16 org.apache.coyote.AbstractProtocol init
+信息: Initializing ProtocolHandler ["http-bio-8080"]
+2013-4-24 15:54:16 org.apache.coyote.AbstractProtocol init
+严重: Failed to initialize end point associated with ProtocolHandler ["http-bio-8080"]
+java.net.BindException: Address already in use: JVM_Bind <null>:8080
+	at org.apache.tomcat.util.net.JIoEndpoint.bind(JIoEndpoint.java:406)
+	at org.apache.tomcat.util.net.AbstractEndpoint.init(AbstractEndpoint.java:610)
+	at org.apache.coyote.AbstractProtocol.init(AbstractProtocol.java:429)
+	at org.apache.coyote.http11.AbstractHttp11JsseProtocol.init(AbstractHttp11JsseProtocol.java:119)
+	at org.apache.catalina.connector.Connector.initInternal(Connector.java:981)
+	at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:102)
+	at org.apache.catalina.core.StandardService.initInternal(StandardService.java:559)
+	at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:102)
+	at org.apache.catalina.core.StandardServer.initInternal(StandardServer.java:814)
+	at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:102)
+	at org.apache.catalina.startup.Catalina.load(Catalina.java:633)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
+	at java.lang.reflect.Method.invoke(Method.java:597)
+	at org.apache.catalina.startup.Bootstrap.load(Bootstrap.java:281)
+	at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:455)
+Caused by: java.net.BindException: Address already in use: JVM_Bind
+	at java.net.PlainSocketImpl.socketBind(Native Method)
+	at java.net.PlainSocketImpl.bind(PlainSocketImpl.java:365)
+	at java.net.ServerSocket.bind(ServerSocket.java:328)
+	at java.net.ServerSocket.<init>(ServerSocket.java:194)
+	at java.net.ServerSocket.<init>(ServerSocket.java:150)
+	at org.apache.tomcat.util.net.DefaultServerSocketFactory.createSocket(DefaultServerSocketFactory.java:49)
+	at org.apache.tomcat.util.net.JIoEndpoint.bind(JIoEndpoint.java:393)
+	... 16 more
+2013-4-24 15:54:16 org.apache.catalina.core.StandardService initInternal
+严重: Failed to initialize connector [Connector[HTTP/1.1-8080]]
+org.apache.catalina.LifecycleException: Failed to initialize component [Connector[HTTP/1.1-8080]]
+	at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:106)
+	at org.apache.catalina.core.StandardService.initInternal(StandardService.java:559)
+	at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:102)
+	at org.apache.catalina.core.StandardServer.initInternal(StandardServer.java:814)
+	at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:102)
+	at org.apache.catalina.startup.Catalina.load(Catalina.java:633)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
+	at java.lang.reflect.Method.invoke(Method.java:597)
+	at org.apache.catalina.startup.Bootstrap.load(Bootstrap.java:281)
+	at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:455)
+Caused by: org.apache.catalina.LifecycleException: Protocol handler initialization failed
+	at org.apache.catalina.connector.Connector.initInternal(Connector.java:983)
+	at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:102)
+	... 11 more
+Caused by: java.net.BindException: Address already in use: JVM_Bind <null>:8080
+	at org.apache.tomcat.util.net.JIoEndpoint.bind(JIoEndpoint.java:406)
+	at org.apache.tomcat.util.net.AbstractEndpoint.init(AbstractEndpoint.java:610)
+	at org.apache.coyote.AbstractProtocol.init(AbstractProtocol.java:429)
+	at org.apache.coyote.http11.AbstractHttp11JsseProtocol.init(AbstractHttp11JsseProtocol.java:119)
+	at org.apache.catalina.connector.Connector.initInternal(Connector.java:981)
+	... 12 more
+Caused by: java.net.BindException: Address already in use: JVM_Bind
+	at java.net.PlainSocketImpl.socketBind(Native Method)
+	at java.net.PlainSocketImpl.bind(PlainSocketImpl.java:365)
+	at java.net.ServerSocket.bind(ServerSocket.java:328)
+	at java.net.ServerSocket.<init>(ServerSocket.java:194)
+	at java.net.ServerSocket.<init>(ServerSocket.java:150)
+	at org.apache.tomcat.util.net.DefaultServerSocketFactory.createSocket(DefaultServerSocketFactory.java:49)
+	at org.apache.tomcat.util.net.JIoEndpoint.bind(JIoEndpoint.java:393)
+	... 16 more
+2013-4-24 15:54:16 org.apache.coyote.AbstractProtocol init
+信息: Initializing ProtocolHandler ["ajp-bio-8009"]
+2013-4-24 15:54:16 org.apache.coyote.AbstractProtocol init
+严重: Failed to initialize end point associated with ProtocolHandler ["ajp-bio-8009"]
+java.net.BindException: Address already in use: JVM_Bind <null>:8009
+	at org.apache.tomcat.util.net.JIoEndpoint.bind(JIoEndpoint.java:406)
+	at org.apache.tomcat.util.net.AbstractEndpoint.init(AbstractEndpoint.java:610)
+	at org.apache.coyote.AbstractProtocol.init(AbstractProtocol.java:429)
+	at org.apache.catalina.connector.Connector.initInternal(Connector.java:981)
+	at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:102)
+	at org.apache.catalina.core.StandardService.initInternal(StandardService.java:559)
+	at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:102)
+	at org.apache.catalina.core.StandardServer.initInternal(StandardServer.java:814)
+	at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:102)
+	at org.apache.catalina.startup.Catalina.load(Catalina.java:633)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
+	at java.lang.reflect.Method.invoke(Method.java:597)
+	at org.apache.catalina.startup.Bootstrap.load(Bootstrap.java:281)
+	at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:455)
+Caused by: java.net.BindException: Address already in use: JVM_Bind
+	at java.net.PlainSocketImpl.socketBind(Native Method)
+	at java.net.PlainSocketImpl.bind(PlainSocketImpl.java:365)
+	at java.net.ServerSocket.bind(ServerSocket.java:328)
+	at java.net.ServerSocket.<init>(ServerSocket.java:194)
+	at java.net.ServerSocket.<init>(ServerSocket.java:150)
+	at org.apache.tomcat.util.net.DefaultServerSocketFactory.createSocket(DefaultServerSocketFactory.java:49)
+	at org.apache.tomcat.util.net.JIoEndpoint.bind(JIoEndpoint.java:393)
+	... 15 more
+2013-4-24 15:54:16 org.apache.catalina.core.StandardService initInternal
+严重: Failed to initialize connector [Connector[AJP/1.3-8009]]
+org.apache.catalina.LifecycleException: Failed to initialize component [Connector[AJP/1.3-8009]]
+	at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:106)
+	at org.apache.catalina.core.StandardService.initInternal(StandardService.java:559)
+	at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:102)
+	at org.apache.catalina.core.StandardServer.initInternal(StandardServer.java:814)
+	at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:102)
+	at org.apache.catalina.startup.Catalina.load(Catalina.java:633)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
+	at java.lang.reflect.Method.invoke(Method.java:597)
+	at org.apache.catalina.startup.Bootstrap.load(Bootstrap.java:281)
+	at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:455)
+Caused by: org.apache.catalina.LifecycleException: Protocol handler initialization failed
+	at org.apache.catalina.connector.Connector.initInternal(Connector.java:983)
+	at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:102)
+	... 11 more
+Caused by: java.net.BindException: Address already in use: JVM_Bind <null>:8009
+	at org.apache.tomcat.util.net.JIoEndpoint.bind(JIoEndpoint.java:406)
+	at org.apache.tomcat.util.net.AbstractEndpoint.init(AbstractEndpoint.java:610)
+	at org.apache.coyote.AbstractProtocol.init(AbstractProtocol.java:429)
+	at org.apache.catalina.connector.Connector.initInternal(Connector.java:981)
+	... 12 more
+Caused by: java.net.BindException: Address already in use: JVM_Bind
+	at java.net.PlainSocketImpl.socketBind(Native Method)
+	at java.net.PlainSocketImpl.bind(PlainSocketImpl.java:365)
+	at java.net.ServerSocket.bind(ServerSocket.java:328)
+	at java.net.ServerSocket.<init>(ServerSocket.java:194)
+	at java.net.ServerSocket.<init>(ServerSocket.java:150)
+	at org.apache.tomcat.util.net.DefaultServerSocketFactory.createSocket(DefaultServerSocketFactory.java:49)
+	at org.apache.tomcat.util.net.JIoEndpoint.bind(JIoEndpoint.java:393)
+	... 15 more
+2013-4-24 15:54:16 org.apache.catalina.startup.Catalina load
+信息: Initialization processed in 558 ms
+2013-4-24 15:54:16 org.apache.catalina.core.StandardService startInternal
+信息: Starting service Catalina
+2013-4-24 15:54:16 org.apache.catalina.core.StandardEngine startInternal
+信息: Starting Servlet Engine: Apache Tomcat/@VERSION@
+2013-4-24 15:54:16 org.apache.catalina.startup.HostConfig deployDirectory
+信息: Deploying web application directory D:\repos\tomcat\launch\webapps\docs
+2013-4-24 15:54:48 org.apache.catalina.startup.HostConfig deployDirectory
+信息: Deploying web application directory D:\repos\tomcat\launch\webapps\examples
+2013-4-24 15:55:00 org.apache.catalina.startup.HostConfig deployDirectory
+信息: Deploying web application directory D:\repos\tomcat\launch\webapps\host-manager
+2013-4-24 15:56:53 org.apache.catalina.core.AprLifecycleListener init
+信息: The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: D:\Java\jdk1.6.0_23\jre\bin;.;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;D:\Java\jdk1.6.0_23\jre\bin;D:/Java/jre6/bin/client;D:/Java/jre6/bin;D:/Java/jre6/lib/i386;D:\app\shsun\product\11.2.0\dbhome_1\bin;C:\Program Files\AMD APP\bin\x86;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;D:\Java\jdk1.6.0_23\bin;D:\Java\apache-ant-1.8.2\bin;D:\Java\apache-ant-1.8.2\lib;C:\Program Files\ATI Technologies\ATI.ACE\Core-Static;C:\Program Files\MySQL\MySQL Server 5.5\bin;D:\Java\apache-maven-3.0.4\bin;D:\Java\apache-maven-3.0.4\lib;;D:\Program Files\eclipse-j2ee;
+2013-4-24 15:56:53 org.apache.coyote.AbstractProtocol init
+信息: Initializing ProtocolHandler ["http-bio-8080"]
+2013-4-24 15:56:53 org.apache.coyote.AbstractProtocol init
+信息: Initializing ProtocolHandler ["ajp-bio-8009"]
+2013-4-24 15:56:53 org.apache.catalina.startup.Catalina load
+信息: Initialization processed in 617 ms
+2013-4-24 15:56:53 org.apache.catalina.core.StandardService startInternal
+信息: Starting service Catalina
+2013-4-24 15:56:53 org.apache.catalina.core.StandardEngine startInternal
+信息: Starting Servlet Engine: Apache Tomcat/@VERSION@
+2013-4-24 15:56:53 org.apache.catalina.startup.HostConfig deployDirectory
+信息: Deploying web application directory D:\repos\tomcat\launch\webapps\docs
+2013-4-24 15:57:06 org.apache.catalina.startup.HostConfig deployDirectory
+信息: Deploying web application directory D:\repos\tomcat\launch\webapps\examples
+2013-4-24 15:57:12 org.apache.catalina.startup.HostConfig deployDirectory
+信息: Deploying web application directory D:\repos\tomcat\launch\webapps\host-manager
+2013-4-24 15:57:12 org.apache.catalina.startup.HostConfig deployDirectory
+信息: Deploying web application directory D:\repos\tomcat\launch\webapps\manager
+2013-4-24 15:57:12 org.apache.catalina.startup.HostConfig deployDirectory
+信息: Deploying web application directory D:\repos\tomcat\launch\webapps\ROOT
+2013-4-24 15:57:12 org.apache.coyote.AbstractProtocol start
+信息: Starting ProtocolHandler ["http-bio-8080"]
+2013-4-24 15:57:12 org.apache.coyote.AbstractProtocol start
+信息: Starting ProtocolHandler ["ajp-bio-8009"]
+2013-4-24 15:57:12 org.apache.catalina.startup.Catalina start
+信息: Server startup in 18848 ms
+2013-4-24 15:57:35 org.apache.catalina.core.AprLifecycleListener init
+信息: The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: D:\Java\jdk1.6.0_23\jre\bin;.;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;D:\Java\jdk1.6.0_23\jre\bin;D:/Java/jre6/bin/client;D:/Java/jre6/bin;D:/Java/jre6/lib/i386;D:\app\shsun\product\11.2.0\dbhome_1\bin;C:\Program Files\AMD APP\bin\x86;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;D:\Java\jdk1.6.0_23\bin;D:\Java\apache-ant-1.8.2\bin;D:\Java\apache-ant-1.8.2\lib;C:\Program Files\ATI Technologies\ATI.ACE\Core-Static;C:\Program Files\MySQL\MySQL Server 5.5\bin;D:\Java\apache-maven-3.0.4\bin;D:\Java\apache-maven-3.0.4\lib;;D:\Program Files\eclipse-j2ee;
+2013-4-24 15:57:35 org.apache.coyote.AbstractProtocol init
+信息: Initializing ProtocolHandler ["http-bio-8080"]
+2013-4-24 15:57:35 org.apache.coyote.AbstractProtocol init
+信息: Initializing ProtocolHandler ["ajp-bio-8009"]
+2013-4-24 15:57:35 org.apache.catalina.startup.Catalina load
+信息: Initialization processed in 589 ms
+2013-4-24 15:57:35 org.apache.catalina.core.StandardService startInternal
+信息: Starting service Catalina
+2013-4-24 15:57:35 org.apache.catalina.core.StandardEngine startInternal
+信息: Starting Servlet Engine: Apache Tomcat/@VERSION@
+2013-4-24 15:57:35 org.apache.catalina.startup.HostConfig deployDirectory
+信息: Deploying web application directory D:\repos\tomcat\launch\webapps\docs
+2013-4-24 15:57:36 org.apache.catalina.startup.HostConfig deployDirectory
+信息: Deploying web application directory D:\repos\tomcat\launch\webapps\examples
+2013-4-24 15:57:36 org.apache.catalina.startup.HostConfig deployDirectory
+信息: Deploying web application directory D:\repos\tomcat\launch\webapps\host-manager
+2013-4-24 15:57:36 org.apache.catalina.startup.HostConfig deployDirectory
+信息: Deploying web application directory D:\repos\tomcat\launch\webapps\manager
+2013-4-24 15:57:36 org.apache.catalina.startup.HostConfig deployDirectory
+信息: Deploying web application directory D:\repos\tomcat\launch\webapps\ROOT
+2013-4-24 15:57:36 org.apache.coyote.AbstractProtocol start
+信息: Starting ProtocolHandler ["http-bio-8080"]
+2013-4-24 15:57:36 org.apache.coyote.AbstractProtocol start
+信息: Starting ProtocolHandler ["ajp-bio-8009"]
+2013-4-24 15:57:36 org.apache.catalina.startup.Catalina start
+信息: Server startup in 899 ms
+2013-4-24 16:03:03 org.apache.catalina.core.AprLifecycleListener init
+信息: The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: D:\Java\jdk1.6.0_23\jre\bin;.;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;D:\Java\jdk1.6.0_23\jre\bin;D:/Java/jre6/bin/client;D:/Java/jre6/bin;D:/Java/jre6/lib/i386;D:\app\shsun\product\11.2.0\dbhome_1\bin;C:\Program Files\AMD APP\bin\x86;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;D:\Java\jdk1.6.0_23\bin;D:\Java\apache-ant-1.8.2\bin;D:\Java\apache-ant-1.8.2\lib;C:\Program Files\ATI Technologies\ATI.ACE\Core-Static;C:\Program Files\MySQL\MySQL Server 5.5\bin;D:\Java\apache-maven-3.0.4\bin;D:\Java\apache-maven-3.0.4\lib;;D:\Program Files\eclipse-j2ee;
+2013-4-24 16:03:03 org.apache.coyote.AbstractProtocol init
+信息: Initializing ProtocolHandler ["http-bio-8080"]
+2013-4-24 16:03:03 org.apache.coyote.AbstractProtocol init
+信息: Initializing ProtocolHandler ["ajp-bio-8009"]
+2013-4-24 16:03:03 org.apache.catalina.startup.Catalina load
+信息: Initialization processed in 587 ms
+2013-4-24 16:03:03 org.apache.catalina.core.StandardService startInternal
+信息: Starting service Catalina
+2013-4-24 16:03:03 org.apache.catalina.core.StandardEngine startInternal
+信息: Starting Servlet Engine: Apache Tomcat/@VERSION@
+2013-4-24 16:03:03 org.apache.catalina.startup.HostConfig deployDirectory
+信息: Deploying web application directory D:\repos\tomcat\launch\webapps\docs
+2013-4-24 16:34:50 org.apache.catalina.core.AprLifecycleListener init
+信息: The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: D:\Java\jdk1.6.0_23\jre\bin;.;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;D:\Java\jdk1.6.0_23\jre\bin;D:/Java/jre6/bin/client;D:/Java/jre6/bin;D:/Java/jre6/lib/i386;D:\app\shsun\product\11.2.0\dbhome_1\bin;C:\Program Files\AMD APP\bin\x86;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;D:\Java\jdk1.6.0_23\bin;D:\Java\apache-ant-1.8.2\bin;D:\Java\apache-ant-1.8.2\lib;C:\Program Files\ATI Technologies\ATI.ACE\Core-Static;C:\Program Files\MySQL\MySQL Server 5.5\bin;D:\Java\apache-maven-3.0.4\bin;D:\Java\apache-maven-3.0.4\lib;;D:\Program Files\eclipse-j2ee;
+2013-4-24 16:34:51 org.apache.coyote.AbstractProtocol init
+信息: Initializing ProtocolHandler ["http-bio-8080"]
+2013-4-24 16:34:51 org.apache.coyote.AbstractProtocol init
+信息: Initializing ProtocolHandler ["ajp-bio-8009"]
+2013-4-24 16:34:51 org.apache.catalina.startup.Catalina load
+信息: Initialization processed in 626 ms
+2013-4-24 16:34:51 org.apache.catalina.core.StandardService startInternal
+信息: Starting service Catalina
+2013-4-24 16:34:51 org.apache.catalina.core.StandardEngine startInternal
+信息: Starting Servlet Engine: Apache Tomcat/@VERSION@
+2013-4-24 16:34:53 org.apache.catalina.startup.HostConfig deployDirectory
+信息: Deploying web application directory D:\repos\tomcat\launch\webapps\docs
+2013-4-24 16:35:04 org.apache.catalina.startup.HostConfig deployDirectory
+信息: Deploying web application directory D:\repos\tomcat\launch\webapps\examples
+2013-4-24 16:35:04 org.apache.catalina.startup.HostConfig deployDirectory
+信息: Deploying web application directory D:\repos\tomcat\launch\webapps\host-manager
+2013-4-24 16:35:04 org.apache.catalina.startup.HostConfig deployDirectory
+信息: Deploying web application directory D:\repos\tomcat\launch\webapps\manager
+2013-4-24 16:35:04 org.apache.catalina.startup.HostConfig deployDirectory
+信息: Deploying web application directory D:\repos\tomcat\launch\webapps\ROOT
+2013-4-24 16:35:04 org.apache.coyote.AbstractProtocol start
+信息: Starting ProtocolHandler ["http-bio-8080"]
+2013-4-24 16:35:04 org.apache.coyote.AbstractProtocol start
+信息: Starting ProtocolHandler ["ajp-bio-8009"]
+2013-4-24 16:35:04 org.apache.catalina.startup.Catalina start
+信息: Server startup in 13069 ms
+2013-4-24 16:35:10 org.apache.catalina.core.AprLifecycleListener init
+信息: The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: D:\Java\jdk1.6.0_23\jre\bin;.;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;D:\Java\jdk1.6.0_23\jre\bin;D:/Java/jre6/bin/client;D:/Java/jre6/bin;D:/Java/jre6/lib/i386;D:\app\shsun\product\11.2.0\dbhome_1\bin;C:\Program Files\AMD APP\bin\x86;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;D:\Java\jdk1.6.0_23\bin;D:\Java\apache-ant-1.8.2\bin;D:\Java\apache-ant-1.8.2\lib;C:\Program Files\ATI Technologies\ATI.ACE\Core-Static;C:\Program Files\MySQL\MySQL Server 5.5\bin;D:\Java\apache-maven-3.0.4\bin;D:\Java\apache-maven-3.0.4\lib;;D:\Program Files\eclipse-j2ee;
+2013-4-24 16:35:11 org.apache.coyote.AbstractProtocol init
+信息: Initializing ProtocolHandler ["http-bio-8080"]
+2013-4-24 16:35:11 org.apache.coyote.AbstractProtocol init
+信息: Initializing ProtocolHandler ["ajp-bio-8009"]
+2013-4-24 16:35:11 org.apache.catalina.startup.Catalina load
+信息: Initialization processed in 758 ms
+2013-4-24 16:35:11 org.apache.catalina.core.StandardService startInternal
+信息: Starting service Catalina
+2013-4-24 16:35:11 org.apache.catalina.core.StandardEngine startInternal
+信息: Starting Servlet Engine: Apache Tomcat/@VERSION@
+2013-4-24 16:35:14 org.apache.catalina.startup.HostConfig deployDirectory
+信息: Deploying web application directory D:\repos\tomcat\launch\webapps\docs
+2013-4-24 16:35:14 org.apache.catalina.util.SessionIdGenerator createSecureRandom
+信息: Creation of SecureRandom instance for session ID generation using [SHA1PRNG] took [125] milliseconds.
+2013-4-24 16:35:14 org.apache.catalina.startup.HostConfig deployDirectory
+信息: Deploying web application directory D:\repos\tomcat\launch\webapps\examples
+2013-4-24 16:35:14 org.apache.catalina.startup.HostConfig deployDirectory
+信息: Deploying web application directory D:\repos\tomcat\launch\webapps\host-manager
+2013-4-24 16:35:14 org.apache.catalina.startup.HostConfig deployDirectory
+信息: Deploying web application directory D:\repos\tomcat\launch\webapps\manager
+2013-4-24 16:35:14 org.apache.catalina.startup.HostConfig deployDirectory
+信息: Deploying web application directory D:\repos\tomcat\launch\webapps\ROOT
+2013-4-24 16:35:14 org.apache.coyote.AbstractProtocol start
+信息: Starting ProtocolHandler ["http-bio-8080"]
+2013-4-24 16:35:14 org.apache.coyote.AbstractProtocol start
+信息: Starting ProtocolHandler ["ajp-bio-8009"]
+2013-4-24 16:35:14 org.apache.catalina.startup.Catalina start
+信息: Server startup in 3848 ms
+2013-4-24 16:35:40 org.apache.catalina.core.AprLifecycleListener init
+信息: The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: D:\Java\jdk1.6.0_23\jre\bin;.;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;D:\Java\jdk1.6.0_23\jre\bin;D:/Java/jre6/bin/client;D:/Java/jre6/bin;D:/Java/jre6/lib/i386;D:\app\shsun\product\11.2.0\dbhome_1\bin;C:\Program Files\AMD APP\bin\x86;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;D:\Java\jdk1.6.0_23\bin;D:\Java\apache-ant-1.8.2\bin;D:\Java\apache-ant-1.8.2\lib;C:\Program Files\ATI Technologies\ATI.ACE\Core-Static;C:\Program Files\MySQL\MySQL Server 5.5\bin;D:\Java\apache-maven-3.0.4\bin;D:\Java\apache-maven-3.0.4\lib;;D:\Program Files\eclipse-j2ee;
+2013-4-24 16:35:41 org.apache.coyote.AbstractProtocol init
+信息: Initializing ProtocolHandler ["http-bio-8080"]
+2013-4-24 16:35:41 org.apache.coyote.AbstractProtocol init
+信息: Initializing ProtocolHandler ["ajp-bio-8009"]
+2013-4-24 16:35:41 org.apache.catalina.startup.Catalina load
+信息: Initialization processed in 575 ms
+2013-4-24 16:35:41 org.apache.catalina.core.StandardService startInternal
+信息: Starting service Catalina
+2013-4-24 16:35:41 org.apache.catalina.core.StandardEngine startInternal
+信息: Starting Servlet Engine: Apache Tomcat/@VERSION@
+2013-4-24 16:42:11 org.apache.catalina.startup.HostConfig deployDirectory
+信息: Deploying web application directory D:\repos\tomcat\launch\webapps\docs
+2013-4-24 16:42:11 org.apache.catalina.startup.HostConfig deployDirectory
+信息: Deploying web application directory D:\repos\tomcat\launch\webapps\examples
+2013-4-24 16:42:12 org.apache.catalina.startup.HostConfig deployDirectory
+信息: Deploying web application directory D:\repos\tomcat\launch\webapps\host-manager
+2013-4-24 16:42:12 org.apache.catalina.startup.HostConfig deployDirectory
+信息: Deploying web application directory D:\repos\tomcat\launch\webapps\manager
+2013-4-24 16:42:12 org.apache.catalina.startup.HostConfig deployDirectory
+信息: Deploying web application directory D:\repos\tomcat\launch\webapps\ROOT
+2013-4-24 16:42:12 org.apache.coyote.AbstractProtocol start
+信息: Starting ProtocolHandler ["http-bio-8080"]
+2013-4-24 16:42:12 org.apache.coyote.AbstractProtocol start
+信息: Starting ProtocolHandler ["ajp-bio-8009"]
+2013-4-24 16:42:12 org.apache.catalina.startup.Catalina start
+信息: Server startup in 390483 ms
+2013-4-24 17:26:24 org.apache.catalina.core.AprLifecycleListener init
+信息: The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: D:\Java\jdk1.6.0_23\jre\bin;.;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;D:\Java\jdk1.6.0_23\jre\bin;D:/Java/jre6/bin/client;D:/Java/jre6/bin;D:/Java/jre6/lib/i386;D:\app\shsun\product\11.2.0\dbhome_1\bin;C:\Program Files\AMD APP\bin\x86;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;D:\Java\jdk1.6.0_23\bin;D:\Java\apache-ant-1.8.2\bin;D:\Java\apache-ant-1.8.2\lib;C:\Program Files\ATI Technologies\ATI.ACE\Core-Static;C:\Program Files\MySQL\MySQL Server 5.5\bin;D:\Java\apache-maven-3.0.4\bin;D:\Java\apache-maven-3.0.4\lib;;D:\Program Files\eclipse-j2ee;
+2013-4-24 17:26:24 org.apache.coyote.AbstractProtocol init
+信息: Initializing ProtocolHandler ["http-bio-8080"]
+2013-4-24 17:26:24 org.apache.coyote.AbstractProtocol init
+信息: Initializing ProtocolHandler ["ajp-bio-8009"]
+2013-4-24 17:26:24 org.apache.catalina.startup.Catalina load
+信息: Initialization processed in 864 ms
+2013-4-24 17:26:24 org.apache.catalina.core.StandardService startInternal
+信息: Starting service Catalina
+2013-4-24 17:26:24 org.apache.catalina.core.StandardEngine startInternal
+信息: Starting Servlet Engine: Apache Tomcat/@VERSION@
+2013-4-24 17:30:33 org.apache.catalina.startup.HostConfig deployDirectory
+信息: Deploying web application directory D:\repos\tomcat\launch\webapps\docs
+2013-4-24 17:30:34 org.apache.catalina.util.SessionIdGenerator createSecureRandom
+信息: Creation of SecureRandom instance for session ID generation using [SHA1PRNG] took [110] milliseconds.
+2013-4-24 17:30:34 org.apache.catalina.startup.HostConfig deployDirectory
+信息: Deploying web application directory D:\repos\tomcat\launch\webapps\examples
+2013-4-24 17:30:34 org.apache.catalina.startup.HostConfig deployDirectory
+信息: Deploying web application directory D:\repos\tomcat\launch\webapps\host-manager
+2013-4-24 17:30:34 org.apache.catalina.startup.HostConfig deployDirectory
+信息: Deploying web application directory D:\repos\tomcat\launch\webapps\manager
+2013-4-24 17:30:34 org.apache.catalina.startup.HostConfig deployDirectory
+信息: Deploying web application directory D:\repos\tomcat\launch\webapps\ROOT
+2013-4-24 17:30:36 org.apache.coyote.AbstractProtocol start
+信息: Starting ProtocolHandler ["http-bio-8080"]
+2013-4-24 17:30:36 org.apache.coyote.AbstractProtocol start
+信息: Starting ProtocolHandler ["ajp-bio-8009"]
+2013-4-24 17:30:36 org.apache.catalina.startup.Catalina start
+信息: Server startup in 251221 ms
+2013-4-24 17:35:58 org.apache.catalina.core.AprLifecycleListener init
+信息: The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: D:\Java\jdk1.6.0_23\jre\bin;.;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;D:\Java\jdk1.6.0_23\jre\bin;D:/Java/jre6/bin/client;D:/Java/jre6/bin;D:/Java/jre6/lib/i386;D:\app\shsun\product\11.2.0\dbhome_1\bin;C:\Program Files\AMD APP\bin\x86;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;D:\Java\jdk1.6.0_23\bin;D:\Java\apache-ant-1.8.2\bin;D:\Java\apache-ant-1.8.2\lib;C:\Program Files\ATI Technologies\ATI.ACE\Core-Static;C:\Program Files\MySQL\MySQL Server 5.5\bin;D:\Java\apache-maven-3.0.4\bin;D:\Java\apache-maven-3.0.4\lib;;D:\Program Files\eclipse-j2ee;
+2013-4-24 17:35:58 org.apache.coyote.AbstractProtocol init
+信息: Initializing ProtocolHandler ["http-bio-8080"]
+2013-4-24 17:35:58 org.apache.coyote.AbstractProtocol init
+信息: Initializing ProtocolHandler ["ajp-bio-8009"]
+2013-4-24 17:35:58 org.apache.catalina.startup.Catalina load
+信息: Initialization processed in 857 ms
+2013-4-24 17:35:58 org.apache.catalina.core.StandardService startInternal
+信息: Starting service Catalina
+2013-4-24 17:35:58 org.apache.catalina.core.StandardEngine startInternal
+信息: Starting Servlet Engine: Apache Tomcat/@VERSION@
+2013-4-24 17:36:35 org.apache.catalina.startup.HostConfig deployDirectory
+信息: Deploying web application directory C:\webapps2\ROOT
+2013-4-24 17:36:38 org.apache.coyote.AbstractProtocol start
+信息: Starting ProtocolHandler ["http-bio-8080"]
+2013-4-24 17:36:38 org.apache.coyote.AbstractProtocol start
+信息: Starting ProtocolHandler ["ajp-bio-8009"]
+2013-4-24 17:36:38 org.apache.catalina.startup.Catalina start
+信息: Server startup in 39780 ms
+2013-4-24 18:45:51 org.apache.catalina.core.AprLifecycleListener init
+信息: The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: D:\Java\jdk1.6.0_23\jre\bin;.;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;D:\Java\jdk1.6.0_23\jre\bin;D:/Java/jre6/bin/client;D:/Java/jre6/bin;D:/Java/jre6/lib/i386;D:\app\shsun\product\11.2.0\dbhome_1\bin;C:\Program Files\AMD APP\bin\x86;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;D:\Java\jdk1.6.0_23\bin;D:\Java\apache-ant-1.8.2\bin;D:\Java\apache-ant-1.8.2\lib;C:\Program Files\ATI Technologies\ATI.ACE\Core-Static;C:\Program Files\MySQL\MySQL Server 5.5\bin;D:\Java\apache-maven-3.0.4\bin;D:\Java\apache-maven-3.0.4\lib;;D:\Program Files\eclipse-j2ee;
+2013-4-24 18:45:51 org.apache.coyote.AbstractProtocol init
+信息: Initializing ProtocolHandler ["http-bio-8080"]
+2013-4-24 18:45:52 org.apache.coyote.AbstractProtocol init
+信息: Initializing ProtocolHandler ["ajp-bio-8009"]
+2013-4-24 18:45:52 org.apache.catalina.startup.Catalina load
+信息: Initialization processed in 875 ms
+2013-4-24 18:45:52 org.apache.catalina.core.StandardService startInternal
+信息: Starting service Catalina
+2013-4-24 18:45:52 org.apache.catalina.core.StandardEngine startInternal
+信息: Starting Servlet Engine: Apache Tomcat/@VERSION@
+2013-4-24 18:49:12 org.apache.catalina.core.AprLifecycleListener init
+信息: The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: D:\Java\jdk1.6.0_23\jre\bin;.;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;D:\Java\jdk1.6.0_23\jre\bin;D:/Java/jre6/bin/client;D:/Java/jre6/bin;D:/Java/jre6/lib/i386;D:\app\shsun\product\11.2.0\dbhome_1\bin;C:\Program Files\AMD APP\bin\x86;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;D:\Java\jdk1.6.0_23\bin;D:\Java\apache-ant-1.8.2\bin;D:\Java\apache-ant-1.8.2\lib;C:\Program Files\ATI Technologies\ATI.ACE\Core-Static;C:\Program Files\MySQL\MySQL Server 5.5\bin;D:\Java\apache-maven-3.0.4\bin;D:\Java\apache-maven-3.0.4\lib;;D:\Program Files\eclipse-j2ee;
+2013-4-24 18:49:12 org.apache.coyote.AbstractProtocol init
+信息: Initializing ProtocolHandler ["http-bio-8080"]
+2013-4-24 18:49:12 org.apache.coyote.AbstractProtocol init
+信息: Initializing ProtocolHandler ["ajp-bio-8009"]
+2013-4-24 18:49:12 org.apache.catalina.startup.Catalina load
+信息: Initialization processed in 653 ms
+2013-4-24 18:49:12 org.apache.catalina.core.StandardService startInternal
+信息: Starting service Catalina
+2013-4-24 18:49:12 org.apache.catalina.core.StandardEngine startInternal
+信息: Starting Servlet Engine: Apache Tomcat/@VERSION@
+2013-4-24 18:49:49 org.apache.catalina.startup.HostConfig deployDirectory
+信息: Deploying web application directory C:\webapps2\docs
+2013-4-24 18:49:50 org.apache.catalina.startup.HostConfig deployDirectory
+信息: Deploying web application directory C:\webapps2\examples
+2013-4-24 18:49:50 org.apache.catalina.core.StandardContext startInternal
+严重: Error listenerStart
+2013-4-24 18:49:50 org.apache.catalina.core.StandardContext startInternal
+严重: Context [/examples] startup failed due to previous errors
+2013-4-24 18:49:50 org.apache.catalina.startup.HostConfig deployDirectory
+信息: Deploying web application directory C:\webapps2\host-manager
+2013-4-24 18:49:50 org.apache.catalina.startup.HostConfig deployDirectory
+信息: Deploying web application directory C:\webapps2\manager
+2013-4-24 18:49:50 org.apache.catalina.startup.HostConfig deployDirectory
+信息: Deploying web application directory C:\webapps2\ROOT
+2013-4-24 18:49:50 org.apache.coyote.AbstractProtocol start
+信息: Starting ProtocolHandler ["http-bio-8080"]
+2013-4-24 18:49:50 org.apache.coyote.AbstractProtocol start
+信息: Starting ProtocolHandler ["ajp-bio-8009"]
+2013-4-24 18:49:50 org.apache.catalina.startup.Catalina start
+信息: Server startup in 38007 ms
+2013-4-24 18:50:52 org.apache.catalina.core.AprLifecycleListener init
+信息: The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: D:\Java\jdk1.6.0_23\jre\bin;.;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;D:\Java\jdk1.6.0_23\jre\bin;D:/Java/jre6/bin/client;D:/Java/jre6/bin;D:/Java/jre6/lib/i386;D:\app\shsun\product\11.2.0\dbhome_1\bin;C:\Program Files\AMD APP\bin\x86;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;D:\Java\jdk1.6.0_23\bin;D:\Java\apache-ant-1.8.2\bin;D:\Java\apache-ant-1.8.2\lib;C:\Program Files\ATI Technologies\ATI.ACE\Core-Static;C:\Program Files\MySQL\MySQL Server 5.5\bin;D:\Java\apache-maven-3.0.4\bin;D:\Java\apache-maven-3.0.4\lib;;D:\Program Files\eclipse-j2ee;
+2013-4-24 18:50:53 org.apache.coyote.AbstractProtocol init
+信息: Initializing ProtocolHandler ["http-bio-8080"]
+2013-4-24 18:50:53 org.apache.coyote.AbstractProtocol init
+信息: Initializing ProtocolHandler ["ajp-bio-8009"]
+2013-4-24 18:50:53 org.apache.catalina.startup.Catalina load
+信息: Initialization processed in 1051 ms
+2013-4-24 18:50:53 org.apache.catalina.core.StandardService startInternal
+信息: Starting service Catalina
+2013-4-24 18:50:53 org.apache.catalina.core.StandardEngine startInternal
+信息: Starting Servlet Engine: Apache Tomcat/@VERSION@
+2013-4-24 18:50:53 org.apache.catalina.startup.HostConfig deployDirectory
+信息: Deploying web application directory C:\webapps2\docs
+2013-4-24 18:50:54 org.apache.catalina.startup.HostConfig deployDirectory
+信息: Deploying web application directory C:\webapps2\examples
+2013-4-24 18:50:54 org.apache.catalina.core.StandardContext startInternal
+严重: Error listenerStart
+2013-4-24 18:50:54 org.apache.catalina.core.StandardContext startInternal
+严重: Context [/examples] startup failed due to previous errors
+2013-4-24 18:50:54 org.apache.catalina.startup.HostConfig deployDirectory
+信息: Deploying web application directory C:\webapps2\host-manager
+2013-4-24 18:50:54 org.apache.catalina.startup.HostConfig deployDirectory
+信息: Deploying web application directory C:\webapps2\manager
+2013-4-24 18:50:54 org.apache.catalina.startup.HostConfig deployDirectory
+信息: Deploying web application directory C:\webapps2\ROOT
+2013-4-24 18:50:54 org.apache.coyote.AbstractProtocol start
+信息: Starting ProtocolHandler ["http-bio-8080"]
+2013-4-24 18:50:54 org.apache.coyote.AbstractProtocol start
+信息: Starting ProtocolHandler ["ajp-bio-8009"]
+2013-4-24 18:50:54 org.apache.catalina.startup.Catalina start
+信息: Server startup in 1057 ms
+2013-4-24 18:56:16 org.apache.catalina.core.AprLifecycleListener init
+信息: The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: D:\Java\jdk1.6.0_23\jre\bin;.;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;D:\Java\jdk1.6.0_23\jre\bin;D:/Java/jre6/bin/client;D:/Java/jre6/bin;D:/Java/jre6/lib/i386;D:\app\shsun\product\11.2.0\dbhome_1\bin;C:\Program Files\AMD APP\bin\x86;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;D:\Java\jdk1.6.0_23\bin;D:\Java\apache-ant-1.8.2\bin;D:\Java\apache-ant-1.8.2\lib;C:\Program Files\ATI Technologies\ATI.ACE\Core-Static;C:\Program Files\MySQL\MySQL Server 5.5\bin;D:\Java\apache-maven-3.0.4\bin;D:\Java\apache-maven-3.0.4\lib;;D:\Program Files\eclipse-j2ee;
+2013-4-24 18:56:16 org.apache.coyote.AbstractProtocol init
+信息: Initializing ProtocolHandler ["http-bio-8080"]
+2013-4-24 18:56:16 org.apache.coyote.AbstractProtocol init
+严重: Failed to initialize end point associated with ProtocolHandler ["http-bio-8080"]
+java.net.BindException: Address already in use: JVM_Bind <null>:8080
+	at org.apache.tomcat.util.net.JIoEndpoint.bind(JIoEndpoint.java:406)
+	at org.apache.tomcat.util.net.AbstractEndpoint.init(AbstractEndpoint.java:610)
+	at org.apache.coyote.AbstractProtocol.init(AbstractProtocol.java:429)
+	at org.apache.coyote.http11.AbstractHttp11JsseProtocol.init(AbstractHttp11JsseProtocol.java:119)
+	at org.apache.catalina.connector.Connector.initInternal(Connector.java:981)
+	at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:102)
+	at org.apache.catalina.core.StandardService.initInternal(StandardService.java:559)
+	at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:102)
+	at org.apache.catalina.core.StandardServer.initInternal(StandardServer.java:814)
+	at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:102)
+	at org.apache.catalina.startup.Catalina.load(Catalina.java:633)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
+	at java.lang.reflect.Method.invoke(Method.java:597)
+	at org.apache.catalina.startup.Bootstrap.load(Bootstrap.java:281)
+	at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:455)
+Caused by: java.net.BindException: Address already in use: JVM_Bind
+	at java.net.PlainSocketImpl.socketBind(Native Method)
+	at java.net.PlainSocketImpl.bind(PlainSocketImpl.java:365)
+	at java.net.ServerSocket.bind(ServerSocket.java:328)
+	at java.net.ServerSocket.<init>(ServerSocket.java:194)
+	at java.net.ServerSocket.<init>(ServerSocket.java:150)
+	at org.apache.tomcat.util.net.DefaultServerSocketFactory.createSocket(DefaultServerSocketFactory.java:49)
+	at org.apache.tomcat.util.net.JIoEndpoint.bind(JIoEndpoint.java:393)
+	... 16 more
+2013-4-24 18:56:16 org.apache.catalina.core.StandardService initInternal
+严重: Failed to initialize connector [Connector[HTTP/1.1-8080]]
+org.apache.catalina.LifecycleException: Failed to initialize component [Connector[HTTP/1.1-8080]]
+	at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:106)
+	at org.apache.catalina.core.StandardService.initInternal(StandardService.java:559)
+	at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:102)
+	at org.apache.catalina.core.StandardServer.initInternal(StandardServer.java:814)
+	at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:102)
+	at org.apache.catalina.startup.Catalina.load(Catalina.java:633)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
+	at java.lang.reflect.Method.invoke(Method.java:597)
+	at org.apache.catalina.startup.Bootstrap.load(Bootstrap.java:281)
+	at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:455)
+Caused by: org.apache.catalina.LifecycleException: Protocol handler initialization failed
+	at org.apache.catalina.connector.Connector.initInternal(Connector.java:983)
+	at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:102)
+	... 11 more
+Caused by: java.net.BindException: Address already in use: JVM_Bind <null>:8080
+	at org.apache.tomcat.util.net.JIoEndpoint.bind(JIoEndpoint.java:406)
+	at org.apache.tomcat.util.net.AbstractEndpoint.init(AbstractEndpoint.java:610)
+	at org.apache.coyote.AbstractProtocol.init(AbstractProtocol.java:429)
+	at org.apache.coyote.http11.AbstractHttp11JsseProtocol.init(AbstractHttp11JsseProtocol.java:119)
+	at org.apache.catalina.connector.Connector.initInternal(Connector.java:981)
+	... 12 more
+Caused by: java.net.BindException: Address already in use: JVM_Bind
+	at java.net.PlainSocketImpl.socketBind(Native Method)
+	at java.net.PlainSocketImpl.bind(PlainSocketImpl.java:365)
+	at java.net.ServerSocket.bind(ServerSocket.java:328)
+	at java.net.ServerSocket.<init>(ServerSocket.java:194)
+	at java.net.ServerSocket.<init>(ServerSocket.java:150)
+	at org.apache.tomcat.util.net.DefaultServerSocketFactory.createSocket(DefaultServerSocketFactory.java:49)
+	at org.apache.tomcat.util.net.JIoEndpoint.bind(JIoEndpoint.java:393)
+	... 16 more
+2013-4-24 18:56:16 org.apache.coyote.AbstractProtocol init
+信息: Initializing ProtocolHandler ["ajp-bio-8009"]
+2013-4-24 18:56:16 org.apache.coyote.AbstractProtocol init
+严重: Failed to initialize end point associated with ProtocolHandler ["ajp-bio-8009"]
+java.net.BindException: Address already in use: JVM_Bind <null>:8009
+	at org.apache.tomcat.util.net.JIoEndpoint.bind(JIoEndpoint.java:406)
+	at org.apache.tomcat.util.net.AbstractEndpoint.init(AbstractEndpoint.java:610)
+	at org.apache.coyote.AbstractProtocol.init(AbstractProtocol.java:429)
+	at org.apache.catalina.connector.Connector.initInternal(Connector.java:981)
+	at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:102)
+	at org.apache.catalina.core.StandardService.initInternal(StandardService.java:559)
+	at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:102)
+	at org.apache.catalina.core.StandardServer.initInternal(StandardServer.java:814)
+	at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:102)
+	at org.apache.catalina.startup.Catalina.load(Catalina.java:633)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
+	at java.lang.reflect.Method.invoke(Method.java:597)
+	at org.apache.catalina.startup.Bootstrap.load(Bootstrap.java:281)
+	at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:455)
+Caused by: java.net.BindException: Address already in use: JVM_Bind
+	at java.net.PlainSocketImpl.socketBind(Native Method)
+	at java.net.PlainSocketImpl.bind(PlainSocketImpl.java:365)
+	at java.net.ServerSocket.bind(ServerSocket.java:328)
+	at java.net.ServerSocket.<init>(ServerSocket.java:194)
+	at java.net.ServerSocket.<init>(ServerSocket.java:150)
+	at org.apache.tomcat.util.net.DefaultServerSocketFactory.createSocket(DefaultServerSocketFactory.java:49)
+	at org.apache.tomcat.util.net.JIoEndpoint.bind(JIoEndpoint.java:393)
+	... 15 more
+2013-4-24 18:56:16 org.apache.catalina.core.StandardService initInternal
+严重: Failed to initialize connector [Connector[AJP/1.3-8009]]
+org.apache.catalina.LifecycleException: Failed to initialize component [Connector[AJP/1.3-8009]]
+	at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:106)
+	at org.apache.catalina.core.StandardService.initInternal(StandardService.java:559)
+	at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:102)
+	at org.apache.catalina.core.StandardServer.initInternal(StandardServer.java:814)
+	at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:102)
+	at org.apache.catalina.startup.Catalina.load(Catalina.java:633)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
+	at java.lang.reflect.Method.invoke(Method.java:597)
+	at org.apache.catalina.startup.Bootstrap.load(Bootstrap.java:281)
+	at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:455)
+Caused by: org.apache.catalina.LifecycleException: Protocol handler initialization failed
+	at org.apache.catalina.connector.Connector.initInternal(Connector.java:983)
+	at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:102)
+	... 11 more
+Caused by: java.net.BindException: Address already in use: JVM_Bind <null>:8009
+	at org.apache.tomcat.util.net.JIoEndpoint.bind(JIoEndpoint.java:406)
+	at org.apache.tomcat.util.net.AbstractEndpoint.init(AbstractEndpoint.java:610)
+	at org.apache.coyote.AbstractProtocol.init(AbstractProtocol.java:429)
+	at org.apache.catalina.connector.Connector.initInternal(Connector.java:981)
+	... 12 more
+Caused by: java.net.BindException: Address already in use: JVM_Bind
+	at java.net.PlainSocketImpl.socketBind(Native Method)
+	at java.net.PlainSocketImpl.bind(PlainSocketImpl.java:365)
+	at java.net.ServerSocket.bind(ServerSocket.java:328)
+	at java.net.ServerSocket.<init>(ServerSocket.java:194)
+	at java.net.ServerSocket.<init>(ServerSocket.java:150)
+	at org.apache.tomcat.util.net.DefaultServerSocketFactory.createSocket(DefaultServerSocketFactory.java:49)
+	at org.apache.tomcat.util.net.JIoEndpoint.bind(JIoEndpoint.java:393)
+	... 15 more
+2013-4-24 18:56:16 org.apache.catalina.startup.Catalina load
+信息: Initialization processed in 577 ms
+2013-4-24 18:56:16 org.apache.catalina.core.StandardService startInternal
+信息: Starting service Catalina
+2013-4-24 18:56:16 org.apache.catalina.core.StandardEngine startInternal
+信息: Starting Servlet Engine: Apache Tomcat/@VERSION@
+2013-4-24 18:56:16 org.apache.catalina.startup.HostConfig deployDirectory
+信息: Deploying web application directory C:\webapps2\docs
+2013-4-24 18:56:16 org.apache.catalina.startup.HostConfig deployDirectory
+信息: Deploying web application directory C:\webapps2\examples
+2013-4-24 18:56:17 org.apache.catalina.core.StandardContext startInternal
+严重: Error listenerStart
+2013-4-24 18:56:17 org.apache.catalina.core.StandardContext startInternal
+严重: Context [/examples] startup failed due to previous errors
+2013-4-24 18:56:17 org.apache.catalina.startup.HostConfig deployDirectory
+信息: Deploying web application directory C:\webapps2\host-manager
+2013-4-24 18:56:17 org.apache.catalina.startup.HostConfig deployDirectory
+信息: Deploying web application directory C:\webapps2\manager
+2013-4-24 18:56:17 org.apache.catalina.startup.HostConfig deployDirectory
+信息: Deploying web application directory C:\webapps2\ROOT
+2013-4-24 18:56:17 org.apache.catalina.startup.Catalina start
+信息: Server startup in 862 ms
+2013-4-24 18:56:17 org.apache.catalina.core.StandardServer await
+严重: StandardServer.await: create[localhost:8005]: 
+java.net.BindException: Address already in use: JVM_Bind
+	at java.net.PlainSocketImpl.socketBind(Native Method)
+	at java.net.PlainSocketImpl.bind(PlainSocketImpl.java:365)
+	at java.net.ServerSocket.bind(ServerSocket.java:328)
+	at java.net.ServerSocket.<init>(ServerSocket.java:194)
+	at org.apache.catalina.core.StandardServer.await(StandardServer.java:428)
+	at org.apache.catalina.startup.Catalina.await(Catalina.java:766)
+	at org.apache.catalina.startup.Catalina.start(Catalina.java:712)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
+	at java.lang.reflect.Method.invoke(Method.java:597)
+	at org.apache.catalina.startup.Bootstrap.start(Bootstrap.java:322)
+	at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:456)
+2013-4-24 18:56:17 org.apache.coyote.AbstractProtocol pause
+信息: Pausing ProtocolHandler ["http-bio-8080"]
+2013-4-24 18:56:17 org.apache.coyote.AbstractProtocol pause
+信息: Pausing ProtocolHandler ["ajp-bio-8009"]
+2013-4-24 18:56:17 org.apache.catalina.core.StandardService stopInternal
+信息: Stopping service Catalina
+2013-4-24 18:56:17 org.apache.coyote.AbstractProtocol stop
+信息: Stopping ProtocolHandler ["http-bio-8080"]
+2013-4-24 18:56:17 org.apache.coyote.AbstractProtocol destroy
+信息: Destroying ProtocolHandler ["http-bio-8080"]
+2013-4-24 18:56:17 org.apache.coyote.AbstractProtocol stop
+信息: Stopping ProtocolHandler ["ajp-bio-8009"]
+2013-4-24 18:56:17 org.apache.coyote.AbstractProtocol destroy
+信息: Destroying ProtocolHandler ["ajp-bio-8009"]
+2013-4-24 19:06:20 org.apache.catalina.core.AprLifecycleListener init
+信息: The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: D:\Java\jdk1.6.0_23\jre\bin;.;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;D:\Java\jdk1.6.0_23\jre\bin;D:/Java/jre6/bin/client;D:/Java/jre6/bin;D:/Java/jre6/lib/i386;D:\app\shsun\product\11.2.0\dbhome_1\bin;C:\Program Files\AMD APP\bin\x86;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;D:\Java\jdk1.6.0_23\bin;D:\Java\apache-ant-1.8.2\bin;D:\Java\apache-ant-1.8.2\lib;C:\Program Files\ATI Technologies\ATI.ACE\Core-Static;C:\Program Files\MySQL\MySQL Server 5.5\bin;D:\Java\apache-maven-3.0.4\bin;D:\Java\apache-maven-3.0.4\lib;;D:\Program Files\eclipse-j2ee;
+2013-4-24 19:06:21 org.apache.coyote.AbstractProtocol init
+信息: Initializing ProtocolHandler ["http-bio-8080"]
+2013-4-24 19:06:21 org.apache.coyote.AbstractProtocol init
+信息: Initializing ProtocolHandler ["ajp-bio-8009"]
+2013-4-24 19:06:21 org.apache.catalina.startup.Catalina load
+信息: Initialization processed in 619 ms
+2013-4-24 19:06:21 org.apache.catalina.core.StandardService startInternal
+信息: Starting service Catalina
+2013-4-24 19:06:21 org.apache.catalina.core.StandardEngine startInternal
+信息: Starting Servlet Engine: Apache Tomcat/@VERSION@
+2013-4-24 19:06:21 org.apache.catalina.startup.HostConfig deployDirectory
+信息: Deploying web application directory C:\webapps2\docs
+2013-4-24 19:06:23 org.apache.catalina.util.SessionIdGenerator createSecureRandom
+信息: Creation of SecureRandom instance for session ID generation using [SHA1PRNG] took [2,453] milliseconds.
+2013-4-24 19:06:24 org.apache.catalina.startup.HostConfig deployDirectory
+信息: Deploying web application directory C:\webapps2\examples
+2013-4-24 19:06:24 org.apache.catalina.core.StandardContext startInternal
+严重: Error listenerStart
+2013-4-24 19:06:24 org.apache.catalina.core.StandardContext startInternal
+严重: Context [/examples] startup failed due to previous errors
+2013-4-24 19:06:24 org.apache.catalina.startup.HostConfig deployDirectory
+信息: Deploying web application directory C:\webapps2\host-manager
+2013-4-24 19:06:24 org.apache.catalina.startup.HostConfig deployDirectory
+信息: Deploying web application directory C:\webapps2\manager
+2013-4-24 19:06:24 org.apache.catalina.startup.HostConfig deployDirectory
+信息: Deploying web application directory C:\webapps2\ROOT
+2013-4-24 19:06:24 org.apache.coyote.AbstractProtocol start
+信息: Starting ProtocolHandler ["http-bio-8080"]
+2013-4-24 19:06:24 org.apache.coyote.AbstractProtocol start
+信息: Starting ProtocolHandler ["ajp-bio-8009"]
+2013-4-24 19:06:24 org.apache.catalina.startup.Catalina start
+信息: Server startup in 3412 ms
+2013-4-24 19:11:42 org.apache.catalina.core.AprLifecycleListener init
+信息: The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: D:\Java\jdk1.6.0_23\jre\bin;.;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;D:\Java\jdk1.6.0_23\jre\bin;D:/Java/jre6/bin/client;D:/Java/jre6/bin;D:/Java/jre6/lib/i386;D:\app\shsun\product\11.2.0\dbhome_1\bin;C:\Program Files\AMD APP\bin\x86;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;D:\Java\jdk1.6.0_23\bin;D:\Java\apache-ant-1.8.2\bin;D:\Java\apache-ant-1.8.2\lib;C:\Program Files\ATI Technologies\ATI.ACE\Core-Static;C:\Program Files\MySQL\MySQL Server 5.5\bin;D:\Java\apache-maven-3.0.4\bin;D:\Java\apache-maven-3.0.4\lib;;D:\Program Files\eclipse-j2ee;
+2013-4-24 19:11:43 org.apache.coyote.AbstractProtocol init
+信息: Initializing ProtocolHandler ["http-bio-8080"]
+2013-4-24 19:11:43 org.apache.coyote.AbstractProtocol init
+信息: Initializing ProtocolHandler ["ajp-bio-8009"]
+2013-4-24 19:11:43 org.apache.catalina.startup.Catalina load
+信息: Initialization processed in 727 ms
+2013-4-24 19:11:43 org.apache.catalina.core.StandardService startInternal
+信息: Starting service Catalina
+2013-4-24 19:11:43 org.apache.catalina.core.StandardEngine startInternal
+信息: Starting Servlet Engine: Apache Tomcat/@VERSION@
+2013-4-24 19:11:43 org.apache.catalina.startup.HostConfig deployDirectory
+信息: Deploying web application directory C:\webapps2\ROOT
+2013-4-24 19:11:43 org.apache.coyote.AbstractProtocol start
+信息: Starting ProtocolHandler ["http-bio-8080"]
+2013-4-24 19:11:43 org.apache.coyote.AbstractProtocol start
+信息: Starting ProtocolHandler ["ajp-bio-8009"]
+2013-4-24 19:11:43 org.apache.catalina.startup.Catalina start
+信息: Server startup in 600 ms
+2013-4-24 19:49:46 org.apache.catalina.core.AprLifecycleListener init
+信息: The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: D:\Java\jdk1.6.0_23\jre\bin;.;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;D:\Java\jdk1.6.0_23\jre\bin;D:/Java/jre6/bin/client;D:/Java/jre6/bin;D:/Java/jre6/lib/i386;D:\app\shsun\product\11.2.0\dbhome_1\bin;C:\Program Files\AMD APP\bin\x86;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;D:\Java\jdk1.6.0_23\bin;D:\Java\apache-ant-1.8.2\bin;D:\Java\apache-ant-1.8.2\lib;C:\Program Files\ATI Technologies\ATI.ACE\Core-Static;C:\Program Files\MySQL\MySQL Server 5.5\bin;D:\Java\apache-maven-3.0.4\bin;D:\Java\apache-maven-3.0.4\lib;;D:\Program Files\eclipse-j2ee;
+2013-4-24 19:49:47 org.apache.coyote.AbstractProtocol init
+信息: Initializing ProtocolHandler ["http-bio-8080"]
+2013-4-24 19:49:47 org.apache.coyote.AbstractProtocol init
+信息: Initializing ProtocolHandler ["ajp-bio-8009"]
+2013-4-24 19:49:47 org.apache.catalina.startup.Catalina load
+信息: Initialization processed in 657 ms
+2013-4-24 19:49:47 org.apache.catalina.core.StandardService startInternal
+信息: Starting service Catalina
+2013-4-24 19:49:47 org.apache.catalina.core.StandardEngine startInternal
+信息: Starting Servlet Engine: Apache Tomcat/@VERSION@
+2013-4-24 19:49:47 org.apache.catalina.startup.HostConfig deployDirectory
+信息: Deploying web application directory C:\webapps2\ROOT
+2013-4-24 19:49:47 org.apache.catalina.util.SessionIdGenerator createSecureRandom
+信息: Creation of SecureRandom instance for session ID generation using [SHA1PRNG] took [109] milliseconds.
+2013-4-24 19:49:47 org.apache.coyote.AbstractProtocol start
+信息: Starting ProtocolHandler ["http-bio-8080"]
+2013-4-24 19:49:47 org.apache.coyote.AbstractProtocol start
+信息: Starting ProtocolHandler ["ajp-bio-8009"]
+2013-4-24 19:49:47 org.apache.catalina.startup.Catalina start
+信息: Server startup in 740 ms
+2013-4-24 20:04:19 org.apache.catalina.core.AprLifecycleListener init
+信息: The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: D:\Java\jdk1.6.0_23\jre\bin;.;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;D:\Java\jdk1.6.0_23\jre\bin;D:/Java/jre6/bin/client;D:/Java/jre6/bin;D:/Java/jre6/lib/i386;D:\app\shsun\product\11.2.0\dbhome_1\bin;C:\Program Files\AMD APP\bin\x86;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;D:\Java\jdk1.6.0_23\bin;D:\Java\apache-ant-1.8.2\bin;D:\Java\apache-ant-1.8.2\lib;C:\Program Files\ATI Technologies\ATI.ACE\Core-Static;C:\Program Files\MySQL\MySQL Server 5.5\bin;D:\Java\apache-maven-3.0.4\bin;D:\Java\apache-maven-3.0.4\lib;;D:\Program Files\eclipse-j2ee;
+2013-4-24 20:04:19 org.apache.coyote.AbstractProtocol init
+信息: Initializing ProtocolHandler ["http-bio-8080"]
+2013-4-24 20:04:19 org.apache.coyote.AbstractProtocol init
+信息: Initializing ProtocolHandler ["ajp-bio-8009"]
+2013-4-24 20:04:19 org.apache.catalina.startup.Catalina load
+信息: Initialization processed in 2349 ms
+2013-4-24 20:04:35 org.apache.catalina.core.StandardService startInternal
+信息: Starting service Catalina
+2013-4-24 20:04:35 org.apache.catalina.core.StandardEngine startInternal
+信息: Starting Servlet Engine: Apache Tomcat/@VERSION@
+2013-4-24 20:04:35 org.apache.catalina.startup.HostConfig deployDirectory
+信息: Deploying web application directory C:\webapps2\ROOT
+2013-4-24 20:04:35 org.apache.coyote.AbstractProtocol start
+信息: Starting ProtocolHandler ["http-bio-8080"]
+2013-4-24 20:04:35 org.apache.coyote.AbstractProtocol start
+信息: Starting ProtocolHandler ["ajp-bio-8009"]
+2013-4-24 20:04:35 org.apache.catalina.startup.Catalina start
+信息: Server startup in 613 ms
+2013-4-24 20:05:13 org.apache.catalina.core.AprLifecycleListener init
+信息: The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: D:\Java\jdk1.6.0_23\jre\bin;.;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;D:\Java\jdk1.6.0_23\jre\bin;D:/Java/jre6/bin/client;D:/Java/jre6/bin;D:/Java/jre6/lib/i386;D:\app\shsun\product\11.2.0\dbhome_1\bin;C:\Program Files\AMD APP\bin\x86;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;D:\Java\jdk1.6.0_23\bin;D:\Java\apache-ant-1.8.2\bin;D:\Java\apache-ant-1.8.2\lib;C:\Program Files\ATI Technologies\ATI.ACE\Core-Static;C:\Program Files\MySQL\MySQL Server 5.5\bin;D:\Java\apache-maven-3.0.4\bin;D:\Java\apache-maven-3.0.4\lib;;D:\Program Files\eclipse-j2ee;
+2013-4-24 20:05:14 org.apache.coyote.AbstractProtocol init
+信息: Initializing ProtocolHandler ["http-bio-8080"]
+2013-4-24 20:05:14 org.apache.coyote.AbstractProtocol init
+信息: Initializing ProtocolHandler ["ajp-bio-8009"]
+2013-4-24 20:05:14 org.apache.catalina.startup.Catalina load
+信息: Initialization processed in 2643 ms
+2013-4-24 20:07:20 org.apache.catalina.core.AprLifecycleListener init
+信息: The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: D:\Java\jdk1.6.0_23\jre\bin;.;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;D:\Java\jdk1.6.0_23\jre\bin;D:/Java/jre6/bin/client;D:/Java/jre6/bin;D:/Java/jre6/lib/i386;D:\app\shsun\product\11.2.0\dbhome_1\bin;C:\Program Files\AMD APP\bin\x86;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;D:\Java\jdk1.6.0_23\bin;D:\Java\apache-ant-1.8.2\bin;D:\Java\apache-ant-1.8.2\lib;C:\Program Files\ATI Technologies\ATI.ACE\Core-Static;C:\Program Files\MySQL\MySQL Server 5.5\bin;D:\Java\apache-maven-3.0.4\bin;D:\Java\apache-maven-3.0.4\lib;;D:\Program Files\eclipse-j2ee;
+2013-4-24 20:07:20 org.apache.coyote.AbstractProtocol init
+信息: Initializing ProtocolHandler ["http-bio-8080"]
+2013-4-24 20:07:20 org.apache.coyote.AbstractProtocol init
+信息: Initializing ProtocolHandler ["ajp-bio-8009"]
+2013-4-24 20:07:20 org.apache.catalina.startup.Catalina load
+信息: Initialization processed in 864 ms
+2013-4-24 20:07:56 org.apache.catalina.core.StandardService startInternal
+信息: Starting service Catalina
+2013-4-24 20:07:56 org.apache.catalina.core.StandardEngine startInternal
+信息: Starting Servlet Engine: Apache Tomcat/@VERSION@
+2013-4-24 20:07:56 org.apache.catalina.startup.HostConfig deployDirectory
+信息: Deploying web application directory C:\webapps2\ROOT
+2013-4-24 20:07:57 org.apache.coyote.AbstractProtocol start
+信息: Starting ProtocolHandler ["http-bio-8080"]
+2013-4-24 20:07:57 org.apache.coyote.AbstractProtocol start
+信息: Starting ProtocolHandler ["ajp-bio-8009"]
+2013-4-24 20:08:34 org.apache.catalina.startup.Catalina start
+信息: Server startup in 72679 ms
+2013-4-24 20:08:43 org.apache.catalina.core.AprLifecycleListener init
+信息: The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: D:\Java\jdk1.6.0_23\jre\bin;.;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;D:\Java\jdk1.6.0_23\jre\bin;D:/Java/jre6/bin/client;D:/Java/jre6/bin;D:/Java/jre6/lib/i386;D:\app\shsun\product\11.2.0\dbhome_1\bin;C:\Program Files\AMD APP\bin\x86;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;D:\Java\jdk1.6.0_23\bin;D:\Java\apache-ant-1.8.2\bin;D:\Java\apache-ant-1.8.2\lib;C:\Program Files\ATI Technologies\ATI.ACE\Core-Static;C:\Program Files\MySQL\MySQL Server 5.5\bin;D:\Java\apache-maven-3.0.4\bin;D:\Java\apache-maven-3.0.4\lib;;D:\Program Files\eclipse-j2ee;
+2013-4-24 20:08:43 org.apache.coyote.AbstractProtocol init
+信息: Initializing ProtocolHandler ["http-bio-8080"]
+2013-4-24 20:08:43 org.apache.coyote.AbstractProtocol init
+信息: Initializing ProtocolHandler ["ajp-bio-8009"]
+2013-4-24 20:08:43 org.apache.catalina.startup.Catalina load
+信息: Initialization processed in 815 ms
+2013-4-24 20:09:10 org.apache.catalina.core.StandardService startInternal
+信息: Starting service Catalina
+2013-4-24 20:09:36 org.apache.catalina.core.StandardEngine startInternal
+信息: Starting Servlet Engine: Apache Tomcat/@VERSION@
+2013-4-24 20:10:08 org.apache.catalina.startup.HostConfig deployDirectory
+信息: Deploying web application directory C:\webapps2\ROOT
+2013-4-24 20:11:30 org.apache.coyote.AbstractProtocol start
+信息: Starting ProtocolHandler ["http-bio-8080"]
+2013-4-24 20:11:30 org.apache.coyote.AbstractProtocol start
+信息: Starting ProtocolHandler ["ajp-bio-8009"]
+2013-4-24 20:11:49 org.apache.catalina.startup.Catalina start
+信息: Server startup in 185230 ms
+2013-4-24 20:15:45 org.apache.catalina.core.AprLifecycleListener init
+信息: The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: D:\Java\jdk1.6.0_23\jre\bin;.;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;D:\Java\jdk1.6.0_23\jre\bin;D:/Java/jre6/bin/client;D:/Java/jre6/bin;D:/Java/jre6/lib/i386;D:\app\shsun\product\11.2.0\dbhome_1\bin;C:\Program Files\AMD APP\bin\x86;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;D:\Java\jdk1.6.0_23\bin;D:\Java\apache-ant-1.8.2\bin;D:\Java\apache-ant-1.8.2\lib;C:\Program Files\ATI Technologies\ATI.ACE\Core-Static;C:\Program Files\MySQL\MySQL Server 5.5\bin;D:\Java\apache-maven-3.0.4\bin;D:\Java\apache-maven-3.0.4\lib;;D:\Program Files\eclipse-j2ee;
+2013-4-24 20:15:45 org.apache.coyote.AbstractProtocol init
+信息: Initializing ProtocolHandler ["http-bio-8080"]
+2013-4-24 20:15:45 org.apache.coyote.AbstractProtocol init
+信息: Initializing ProtocolHandler ["ajp-bio-8009"]
+2013-4-24 20:15:45 org.apache.catalina.startup.Catalina load
+信息: Initialization processed in 748 ms
+2013-4-24 22:47:35 org.apache.catalina.core.AprLifecycleListener init
+信息: The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: D:\Java\jdk1.6.0_23\jre\bin;.;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;D:\Java\jdk1.6.0_23\jre\bin;D:/Java/jre6/bin/client;D:/Java/jre6/bin;D:/Java/jre6/lib/i386;D:\app\shsun\product\11.2.0\dbhome_1\bin;C:\Program Files\AMD APP\bin\x86;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;D:\Java\jdk1.6.0_23\bin;D:\Java\apache-ant-1.8.2\bin;D:\Java\apache-ant-1.8.2\lib;C:\Program Files\ATI Technologies\ATI.ACE\Core-Static;C:\Program Files\MySQL\MySQL Server 5.5\bin;D:\Java\apache-maven-3.0.4\bin;D:\Java\apache-maven-3.0.4\lib;;D:\Program Files\eclipse-j2ee;
+2013-4-24 22:47:35 org.apache.coyote.AbstractProtocol init
+信息: Initializing ProtocolHandler ["http-bio-8080"]
+2013-4-24 22:47:35 org.apache.coyote.AbstractProtocol init
+信息: Initializing ProtocolHandler ["ajp-bio-8009"]
+2013-4-24 22:47:35 org.apache.catalina.startup.Catalina load
+信息: Initialization processed in 594 ms
+2013-4-24 22:50:13 org.apache.catalina.core.AprLifecycleListener init
+信息: The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: D:\Java\jdk1.6.0_23\jre\bin;.;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;D:\Java\jdk1.6.0_23\jre\bin;D:/Java/jre6/bin/client;D:/Java/jre6/bin;D:/Java/jre6/lib/i386;D:\app\shsun\product\11.2.0\dbhome_1\bin;C:\Program Files\AMD APP\bin\x86;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;D:\Java\jdk1.6.0_23\bin;D:\Java\apache-ant-1.8.2\bin;D:\Java\apache-ant-1.8.2\lib;C:\Program Files\ATI Technologies\ATI.ACE\Core-Static;C:\Program Files\MySQL\MySQL Server 5.5\bin;D:\Java\apache-maven-3.0.4\bin;D:\Java\apache-maven-3.0.4\lib;;D:\Program Files\eclipse-j2ee;
+2013-4-24 22:50:13 org.apache.coyote.AbstractProtocol init
+信息: Initializing ProtocolHandler ["http-bio-8080"]
+2013-4-24 22:50:14 org.apache.coyote.AbstractProtocol init
+信息: Initializing ProtocolHandler ["ajp-bio-8009"]
+2013-4-24 22:50:14 org.apache.catalina.startup.Catalina load
+信息: Initialization processed in 635 ms
+2013-4-24 22:52:37 org.apache.catalina.core.AprLifecycleListener init
+信息: The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: D:\Java\jdk1.6.0_23\jre\bin;.;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;D:\Java\jdk1.6.0_23\jre\bin;D:/Java/jre6/bin/client;D:/Java/jre6/bin;D:/Java/jre6/lib/i386;D:\app\shsun\product\11.2.0\dbhome_1\bin;C:\Program Files\AMD APP\bin\x86;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;D:\Java\jdk1.6.0_23\bin;D:\Java\apache-ant-1.8.2\bin;D:\Java\apache-ant-1.8.2\lib;C:\Program Files\ATI Technologies\ATI.ACE\Core-Static;C:\Program Files\MySQL\MySQL Server 5.5\bin;D:\Java\apache-maven-3.0.4\bin;D:\Java\apache-maven-3.0.4\lib;;D:\Program Files\eclipse-j2ee;
+2013-4-24 22:52:38 org.apache.coyote.AbstractProtocol init
+信息: Initializing ProtocolHandler ["http-bio-8080"]
+2013-4-24 22:52:38 org.apache.coyote.AbstractProtocol init
+信息: Initializing ProtocolHandler ["ajp-bio-8009"]
+2013-4-24 22:52:38 org.apache.catalina.startup.Catalina load
+信息: Initialization processed in 733 ms
+2013-4-24 23:02:11 org.apache.catalina.core.AprLifecycleListener init
+信息: The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: D:\Java\jdk1.6.0_23\jre\bin;.;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;D:\Java\jdk1.6.0_23\jre\bin;D:/Java/jre6/bin/client;D:/Java/jre6/bin;D:/Java/jre6/lib/i386;D:\app\shsun\product\11.2.0\dbhome_1\bin;C:\Program Files\AMD APP\bin\x86;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;D:\Java\jdk1.6.0_23\bin;D:\Java\apache-ant-1.8.2\bin;D:\Java\apache-ant-1.8.2\lib;C:\Program Files\ATI Technologies\ATI.ACE\Core-Static;C:\Program Files\MySQL\MySQL Server 5.5\bin;D:\Java\apache-maven-3.0.4\bin;D:\Java\apache-maven-3.0.4\lib;;D:\Program Files\eclipse-j2ee;
+2013-4-24 23:02:12 org.apache.coyote.AbstractProtocol init
+信息: Initializing ProtocolHandler ["http-bio-8080"]
+2013-4-24 23:02:12 org.apache.coyote.AbstractProtocol init
+信息: Initializing ProtocolHandler ["ajp-bio-8009"]
+2013-4-24 23:02:12 org.apache.catalina.startup.Catalina load
+信息: Initialization processed in 700 ms
+2013-4-24 23:02:12 org.apache.catalina.core.StandardService startInternal
+信息: Starting service Catalina
+2013-4-24 23:02:12 org.apache.catalina.core.StandardEngine startInternal
+信息: Starting Servlet Engine: Apache Tomcat/@VERSION@
+2013-4-24 23:02:12 org.apache.catalina.startup.HostConfig deployDirectory
+信息: Deploying web application directory D:\repos\tomcat\launch\webapps\ROOT
+2013-4-24 23:02:12 org.apache.coyote.AbstractProtocol start
+信息: Starting ProtocolHandler ["http-bio-8080"]
+2013-4-24 23:02:12 org.apache.coyote.AbstractProtocol start
+信息: Starting ProtocolHandler ["ajp-bio-8009"]
+2013-4-24 23:02:12 org.apache.catalina.startup.Catalina start
+信息: Server startup in 444 ms
+2013-4-24 23:31:21 org.apache.catalina.core.AprLifecycleListener init
+信息: The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: D:\Java\jdk1.6.0_23\jre\bin;.;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;D:\Java\jdk1.6.0_23\jre\bin;D:/Java/jre6/bin/client;D:/Java/jre6/bin;D:/Java/jre6/lib/i386;D:\app\shsun\product\11.2.0\dbhome_1\bin;C:\Program Files\AMD APP\bin\x86;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;D:\Java\jdk1.6.0_23\bin;D:\Java\apache-ant-1.8.2\bin;D:\Java\apache-ant-1.8.2\lib;C:\Program Files\ATI Technologies\ATI.ACE\Core-Static;C:\Program Files\MySQL\MySQL Server 5.5\bin;D:\Java\apache-maven-3.0.4\bin;D:\Java\apache-maven-3.0.4\lib;;D:\Program Files\eclipse-j2ee;
+2013-4-24 23:31:22 org.apache.coyote.AbstractProtocol init
+信息: Initializing ProtocolHandler ["http-bio-8080"]
+2013-4-24 23:31:22 org.apache.coyote.AbstractProtocol init
+信息: Initializing ProtocolHandler ["ajp-bio-8009"]
+2013-4-24 23:31:22 org.apache.catalina.startup.Catalina load
+信息: Initialization processed in 2004 ms
