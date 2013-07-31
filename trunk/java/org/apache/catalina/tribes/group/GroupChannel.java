@@ -18,8 +18,9 @@ package org.apache.catalina.tribes.group;
 
 
 import java.io.Serializable;
-import java.util.ArrayList;
 import java.util.Iterator;
+import java.util.List;
+import java.util.concurrent.CopyOnWriteArrayList;
 
 import org.apache.catalina.tribes.ByteMessage;
 import org.apache.catalina.tribes.Channel;
@@ -53,7 +54,7 @@ import org.apache.juli.logging.LogFactory;
  * The channel has an chain of interceptors that can modify the message or perform other logic.<br>
  * It manages a complete group, both membership and replication.
  * @author Filip Hanik
- * @version $Id: GroupChannel.java 1437908 2013-01-24 08:57:41Z markt $
+ * @version $Id: GroupChannel.java 1505628 2013-07-22 08:51:27Z kfujino $
  */
 public class GroupChannel extends ChannelInterceptorBase implements ManagedChannel {
     private static final Log log = LogFactory.getLog(GroupChannel.class);
@@ -92,12 +93,12 @@ public class GroupChannel extends ChannelInterceptorBase implements ManagedChann
     /**
      * A list of membership listeners that subscribe to membership announcements
      */
-    protected ArrayList<Object> membershipListeners = new ArrayList<Object>();
+    protected List<Object> membershipListeners = new CopyOnWriteArrayList<Object>();
 
     /**
      * A list of channel listeners that subscribe to incoming messages
      */
-    protected ArrayList<Object> channelListeners = new ArrayList<Object>();
+    protected List<Object> channelListeners = new CopyOnWriteArrayList<Object>();
 
     /**
      * If set to true, the GroupChannel will check to make sure that

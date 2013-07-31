@@ -41,7 +41,7 @@ import org.apache.catalina.tribes.util.UUIDGenerator;
  * If a node fails to send out a heartbeat, the node will be dismissed.
  *
  * @author Filip Hanik
- * @version $Id: McastService.java 1142672 2011-07-04 14:02:36Z kkolinko $
+ * @version $Id: McastService.java 1506793 2013-07-25 01:41:20Z kfujino $
  */
 
 
@@ -697,6 +697,8 @@ public class McastService implements MembershipService,MembershipListener,Messag
         p.setProperty("mcastFrequency","500");
         p.setProperty("tcpListenPort","4000");
         p.setProperty("tcpListenHost","127.0.0.1");
+        p.setProperty("tcpSecurePort","4100");
+        p.setProperty("udpListenPort","4200");
         service.setProperties(p);
         service.start();
         Thread.sleep(60*1000*60);

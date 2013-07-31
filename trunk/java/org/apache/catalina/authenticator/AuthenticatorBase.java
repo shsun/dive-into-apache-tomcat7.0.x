@@ -69,7 +69,7 @@ import org.apache.tomcat.util.res.StringManager;
  * requests.  Requests of any other type will simply be passed through.
  *
  * @author Craig R. McClanahan
- * @version $Id: AuthenticatorBase.java 1241170 2012-02-06 20:45:52Z markt $
+ * @version $Id: AuthenticatorBase.java 1493918 2013-06-17 20:17:03Z markt $
  */
 
 
@@ -454,6 +454,36 @@ public abstract class AuthenticatorBase extends ValveBase
             }
         }
 
+        // Special handling for form-based logins to deal with the case where
+        // a resource is protected for some HTTP methods but not protected for
+        // GET which is used after authentication when redirecting to the
+        // protected resource.
+        // TODO: This is similar to the FormAuthenticator.matchRequest() logic
+        //       Is there a way to remove the duplication?
+        Session session = request.getSessionInternal(false);
+        if (session != null) {
+            SavedRequest savedRequest =
+                    (SavedRequest) session.getNote(Constants.FORM_REQUEST_NOTE);
+            if (savedRequest != null) {
+                String decodedRequestURI = request.getDecodedRequestURI();
+                if (decodedRequestURI != null &&
+                        decodedRequestURI.equals(
+                                savedRequest.getDecodedRequestURI())) {
+                    if (!authenticate(request, response)) {
+                        if (log.isDebugEnabled()) {
+                            log.debug(" Failed authenticate() test");
+                        }
+                        /*
+                         * ASSERT: Authenticator already set the appropriate
+                         * HTTP status code, so we do not have to do anything
+                         * special
+                         */
+                        return;
+                    }
+                }
+            }
+        }
+
         // The Servlet may specify security constraints through annotations.
         // Ensure that they have been processed before constraints are checked
         Wrapper wrapper = (Wrapper) request.getMappingData().wrapper;
@@ -775,6 +805,7 @@ public abstract class AuthenticatorBase extends ValveBase
             if (principal == null) {
                 // Registering a programmatic logout
                 sso.deregister(ssoId);
+                request.removeNote(Constants.REQ_SSOID_NOTE);
                 return;
             } else {
                 // Update the SSO session with the latest authentication data

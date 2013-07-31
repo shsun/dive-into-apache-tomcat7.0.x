@@ -339,11 +339,11 @@ public class InternalNioInputBuffer extends AbstractInputBuffer<NioChannel> {
             }
             parsingRequestLineStart = pos;
             parsingRequestLinePhase = 6;
+
+            // Mark the current buffer position
+            end = 0;
         }
         if (parsingRequestLinePhase == 6) { 
-            // Mark the current buffer position
-            
-            end = 0;
             //
             // Reading the protocol
             // Protocol is always US-ASCII
@@ -414,9 +414,14 @@ public class InternalNioInputBuffer extends AbstractInputBuffer<NioChannel> {
                 // Ignore
             }
             try {
-                NioEndpoint.KeyAttachment att = (NioEndpoint.KeyAttachment)socket.getAttachment(false);
-                if ( att == null ) throw new IOException("Key must be cancelled.");
-                nRead = pool.read(socket.getBufHandler().getReadBuffer(),socket,selector,att.getTimeout());
+                NioEndpoint.KeyAttachment att =
+                        (NioEndpoint.KeyAttachment) socket.getAttachment(false);
+                if (att == null) {
+                    throw new IOException("Key must be cancelled.");
+                }
+                nRead = pool.read(socket.getBufHandler().getReadBuffer(),
+                        socket, selector,
+                        socket.getIOChannel().socket().getSoTimeout());
             } catch ( EOFException eof ) {
                 nRead = -1;
             } finally { 

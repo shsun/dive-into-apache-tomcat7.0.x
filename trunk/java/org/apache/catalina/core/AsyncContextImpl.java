@@ -117,9 +117,10 @@ public class AsyncContextImpl implements AsyncContext, AsyncContextCallback {
             for (AsyncListenerWrapper listener : listenersCopy) {
                 try {
                     listener.fireOnComplete(event);
-                } catch (IOException ioe) {
+                } catch (Throwable t) {
+                    ExceptionUtils.handleThrowable(t);
                     log.warn("onComplete() failed for listener of type [" +
-                            listener.getClass().getName() + "]", ioe);
+                            listener.getClass().getName() + "]", t);
                 }
             }
         } finally {
@@ -148,9 +149,10 @@ public class AsyncContextImpl implements AsyncContext, AsyncContextCallback {
                 for (AsyncListenerWrapper listener : listenersCopy) {
                     try {
                         listener.fireOnTimeout(event);
-                    } catch (IOException ioe) {
+                    } catch (Throwable t) {
+                        ExceptionUtils.handleThrowable(t);
                         log.warn("onTimeout() failed for listener of type [" +
-                                listener.getClass().getName() + "]", ioe);
+                                listener.getClass().getName() + "]", t);
                     }
                 }
                 request.getCoyoteRequest().action(
@@ -166,10 +168,20 @@ public class AsyncContextImpl implements AsyncContext, AsyncContextCallback {
     @Override
     public void dispatch() {
         check();
-        HttpServletRequest sr = (HttpServletRequest)getRequest();
-        String path = sr.getRequestURI();
-        String cpath = sr.getContextPath();
-        if (cpath.length()>1) path = path.substring(cpath.length());
+        String path;
+        String pathInfo;
+        ServletRequest servletRequest = getRequest();
+        if (servletRequest instanceof HttpServletRequest) {
+            HttpServletRequest sr = (HttpServletRequest) servletRequest;
+            path = sr.getServletPath();
+            pathInfo = sr.getPathInfo();
+        } else {
+            path = request.getServletPath();
+            pathInfo = request.getPathInfo();
+        }
+        if (pathInfo != null) {
+            path += pathInfo;
+        }
         dispatch(path);
     }
 
@@ -185,6 +197,10 @@ public class AsyncContextImpl implements AsyncContext, AsyncContextCallback {
             logDebug("dispatch   ");
         }
         check();
+        if (dispatch != null) {
+            throw new IllegalStateException(
+                    sm.getString("asyncContextImpl.dispatchingStarted"));
+        }
         if (request.getAttribute(ASYNC_REQUEST_URI)==null) {
             request.setAttribute(ASYNC_REQUEST_URI, request.getRequestURI());
             request.setAttribute(ASYNC_CONTEXT_PATH, request.getContextPath());
@@ -199,10 +215,8 @@ public class AsyncContextImpl implements AsyncContext, AsyncContextCallback {
         }
         final AsyncDispatcher applicationDispatcher =
                 (AsyncDispatcher) requestDispatcher;
-        final HttpServletRequest servletRequest =
-                (HttpServletRequest) getRequest();
-        final HttpServletResponse servletResponse =
-                (HttpServletResponse) getResponse();
+        final ServletRequest servletRequest = getRequest();
+        final ServletResponse servletResponse = getResponse();
         Runnable run = new Runnable() {
             @Override
             public void run() {
@@ -328,9 +342,10 @@ public class AsyncContextImpl implements AsyncContext, AsyncContextCallback {
         for (AsyncListenerWrapper listener : listenersCopy) {
             try {
                 listener.fireOnStartAsync(event);
-            } catch (IOException ioe) {
+            } catch (Throwable t) {
+                ExceptionUtils.handleThrowable(t);
                 log.warn("onStartAsync() failed for listener of type [" +
-                        listener.getClass().getName() + "]", ioe);
+                        listener.getClass().getName() + "]", t);
             }
         }
         listeners.clear();
@@ -347,7 +362,9 @@ public class AsyncContextImpl implements AsyncContext, AsyncContextCallback {
             logDebug("intDispatch");
         }
         try {
-            dispatch.run();
+            Runnable runnable = dispatch;
+            dispatch = null;
+            runnable.run();
             if (!request.isAsync()) {
                 fireOnComplete();
             }
@@ -393,9 +410,10 @@ public class AsyncContextImpl implements AsyncContext, AsyncContextCallback {
             for (AsyncListenerWrapper listener : listenersCopy) {
                 try {
                     listener.fireOnError(errorEvent);
-                } catch (IOException ioe) {
+                } catch (Throwable t2) {
+                    ExceptionUtils.handleThrowable(t);
                     log.warn("onError() failed for listener of type [" +
-                            listener.getClass().getName() + "]", ioe);
+                            listener.getClass().getName() + "]", t2);
                 }
             }
         }

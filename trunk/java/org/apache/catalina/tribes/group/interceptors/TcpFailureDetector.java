@@ -67,8 +67,9 @@ public class TcpFailureDetector extends ChannelInterceptorBase {
         125, -39, 82, 91, -21, -15, 67, -102, -73, 126, -66, -113, -127, 103, 30, -74,
         55, 21, -66, -121, 69, 126, 76, -88, -65, 10, 77, 19, 83, 56, 21, 50,
         85, -10, -108, -73, 58, -6, 64, 120, -111, 4, 125, -41, 114, -124, -64, -43};      
-    
-    protected boolean performConnectTest = true;
+
+    @Deprecated
+    protected boolean performConnectTest = true;//Unused - will be removed in Tomcat 8.0.x
 
     protected long connectTimeout = 1000;//1 second default
     
@@ -83,7 +84,9 @@ public class TcpFailureDetector extends ChannelInterceptorBase {
     protected HashMap<Member, Long> removeSuspects = new HashMap<Member, Long>();
     
     protected HashMap<Member, Long> addSuspects = new HashMap<Member, Long>();
-    
+
+    protected int removeSuspectsTimeout = 300; // 5 minutes
+
     @Override
     public void sendMessage(Member[] destination, ChannelMessage msg, InterceptorPayload payload) throws ChannelException {
         try {
@@ -272,7 +275,15 @@ public class TcpFailureDetector extends ChannelInterceptorBase {
                 removeSuspects.remove(m);
                 if(log.isInfoEnabled())
                     log.info("Suspect member, confirmed dead.["+m+"]");
-            } //end if
+            } else {
+                if (removeSuspectsTimeout > 0) {
+                    long timeNow = System.currentTimeMillis();
+                    int timeIdle = (int) ((timeNow - removeSuspects.get(m)) / 1000L);
+                    if (timeIdle > removeSuspectsTimeout) {
+                        removeSuspects.remove(m); // remove suspect member 
+                    }
+                }
+            }
         }
 
         //check add suspects members if they are alive now,
@@ -343,6 +354,7 @@ public class TcpFailureDetector extends ChannelInterceptorBase {
         return false;
     }
 
+    @Deprecated
     public boolean getPerformConnectTest() {
         return performConnectTest;
     }
@@ -363,6 +375,11 @@ public class TcpFailureDetector extends ChannelInterceptorBase {
         return connectTimeout;
     }
 
+    public int getRemoveSuspectsTimeout() {
+        return removeSuspectsTimeout;
+    }
+
+    @Deprecated
     public void setPerformConnectTest(boolean performConnectTest) {
         this.performConnectTest = performConnectTest;
     }
@@ -381,6 +398,10 @@ public class TcpFailureDetector extends ChannelInterceptorBase {
 
     public void setConnectTimeout(long connectTimeout) {
         this.connectTimeout = connectTimeout;
+    }
+
+    public void setRemoveSuspectsTimeout(int removeSuspectsTimeout) {
+        this.removeSuspectsTimeout = removeSuspectsTimeout;
     }
 
 }

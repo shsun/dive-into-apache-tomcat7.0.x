@@ -109,7 +109,7 @@ import org.xml.sax.SAXParseException;
  *
  * @author Craig R. McClanahan
  * @author Jean-Francois Arcand
- * @version $Id: ContextConfig.java 1468594 2013-04-16 20:15:28Z violetagg $
+ * @version $Id: ContextConfig.java 1500682 2013-07-08 12:12:04Z violetagg $
  */
 public class ContextConfig implements LifecycleListener {
 
@@ -228,6 +228,13 @@ public class ContextConfig implements LifecycleListener {
      * Original docBase.
      */
     protected String originalDocBase = null;
+
+
+    /**
+     * Anti-locking docBase. It is a path to a copy of the web application
+     * in the java.io.tmpdir directory. This path is always an absolute one.
+     */
+    private File antiLockingDocBase = null;
 
 
     /**
@@ -372,16 +379,9 @@ public class ContextConfig implements LifecycleListener {
         } else if (event.getType().equals(Lifecycle.AFTER_START_EVENT)) {
             // Restore docBase for management tools
             if (originalDocBase != null) {
-                String docBase = context.getDocBase();
                 context.setDocBase(originalDocBase);
-                originalDocBase = docBase;
             }
         } else if (event.getType().equals(Lifecycle.CONFIGURE_STOP_EVENT)) {
-            if (originalDocBase != null) {
-                String docBase = context.getDocBase();
-                context.setDocBase(originalDocBase);
-                originalDocBase = docBase;
-            }
             configureStop();
         } else if (event.getType().equals(Lifecycle.AFTER_INIT_EVENT)) {
             init();
@@ -615,7 +615,9 @@ public class ContextConfig implements LifecycleListener {
 
         try {
             source = new InputSource(contextXml.toString());
-            stream = contextXml.openStream();
+            URLConnection xmlConn = contextXml.openConnection();
+            xmlConn.setUseCaches(false);
+            stream = xmlConn.getInputStream();
         } catch (Exception e) {
             log.error(sm.getString("contextConfig.contextMissing",
                       contextXml) , e);
@@ -775,11 +777,8 @@ public class ContextConfig implements LifecycleListener {
             String docBase = context.getDocBase();
             if (docBase == null)
                 return;
-            if (originalDocBase == null) {
-                originalDocBase = docBase;
-            } else {
-                docBase = originalDocBase;
-            }
+            originalDocBase = docBase;
+
             File docBaseFile = new File(docBase);
             if (!docBaseFile.isAbsolute()) {
                 File file = new File(appBase);
@@ -796,27 +795,28 @@ public class ContextConfig implements LifecycleListener {
             ContextName cn = new ContextName(path, context.getWebappVersion());
             docBase = cn.getBaseName();
 
-            File file = null;
             if (originalDocBase.toLowerCase(Locale.ENGLISH).endsWith(".war")) {
-                file = new File(System.getProperty("java.io.tmpdir"),
+                antiLockingDocBase = new File(
+                        System.getProperty("java.io.tmpdir"),
                         deploymentCount++ + "-" + docBase + ".war");
             } else {
-                file = new File(System.getProperty("java.io.tmpdir"),
+                antiLockingDocBase = new File(
+                        System.getProperty("java.io.tmpdir"),
                         deploymentCount++ + "-" + docBase);
             }
+            antiLockingDocBase = antiLockingDocBase.getAbsoluteFile();
 
             if (log.isDebugEnabled())
                 log.debug("Anti locking context[" + context.getName()
-                        + "] setting docBase to " + file);
+                        + "] setting docBase to " +
+                        antiLockingDocBase.getPath());
 
             // Cleanup just in case an old deployment is lying around
-            ExpandWar.delete(file);
-            if (ExpandWar.copy(docBaseFile, file)) {
-                context.setDocBase(file.getAbsolutePath());
+            ExpandWar.delete(antiLockingDocBase);
+            if (ExpandWar.copy(docBaseFile, antiLockingDocBase)) {
+                context.setDocBase(antiLockingDocBase.getPath());
             }
-
         }
-
     }
 
 
@@ -1058,16 +1058,9 @@ public class ContextConfig implements LifecycleListener {
         }
 
         // Remove (partially) folders and files created by antiLocking
-        Host host = (Host) context.getParent();
-        String appBase = host.getAppBase();
-        String docBase = context.getDocBase();
-        if ((docBase != null) && (originalDocBase != null)) {
-            File docBaseFile = new File(docBase);
-            if (!docBaseFile.isAbsolute()) {
-                docBaseFile = new File(appBase, docBase);
-            }
+        if (antiLockingDocBase != null) {
             // No need to log failure - it is expected in this case
-            ExpandWar.delete(docBaseFile, false);
+            ExpandWar.delete(antiLockingDocBase, false);
         }
 
         // Reset ServletContextInitializer scanning
@@ -1553,7 +1546,7 @@ public class ContextConfig implements LifecycleListener {
             URL url = fragment.getURL();
             Jar jar = null;
             InputStream is = null;
-            ServletContainerInitializer sci = null;
+            List<ServletContainerInitializer> detectedScis = null;
             try {
                 if ("jar".equals(url.getProtocol())) {
                     jar = JarFactory.newInstance(url);
@@ -1566,7 +1559,7 @@ public class ContextConfig implements LifecycleListener {
                     }
                 }
                 if (is != null) {
-                    sci = getServletContainerInitializer(is);
+                    detectedScis = getServletContainerInitializers(is);
                 }
             } catch (IOException ioe) {
                 log.error(sm.getString(
@@ -1587,42 +1580,44 @@ public class ContextConfig implements LifecycleListener {
                 }
             }
 
-            if (sci == null) {
+            if (detectedScis == null) {
                 continue;
             }
 
-            initializerClassMap.put(sci, new HashSet<Class<?>>());
+            for (ServletContainerInitializer sci : detectedScis) {
+                initializerClassMap.put(sci, new HashSet<Class<?>>());
 
-            HandlesTypes ht = null;
-            try {
-                ht = sci.getClass().getAnnotation(HandlesTypes.class);
-            } catch (Exception e) {
-                if (log.isDebugEnabled()) {
-                    log.info(sm.getString("contextConfig.sci.debug", url), e);
-                } else {
-                    log.info(sm.getString("contextConfig.sci.info", url));
+                HandlesTypes ht = null;
+                try {
+                    ht = sci.getClass().getAnnotation(HandlesTypes.class);
+                } catch (Exception e) {
+                    if (log.isDebugEnabled()) {
+                        log.info(sm.getString("contextConfig.sci.debug", url),
+                                e);
+                    } else {
+                        log.info(sm.getString("contextConfig.sci.info", url));
+                    }
                 }
-            }
-            if (ht != null) {
-                Class<?>[] types = ht.value();
-                if (types != null) {
-                    for (Class<?> type : types) {
-                        if (type.isAnnotation()) {
-                            handlesTypesAnnotations = true;
-                        } else {
-                            handlesTypesNonAnnotations = true;
+                if (ht != null) {
+                    Class<?>[] types = ht.value();
+                    if (types != null) {
+                        for (Class<?> type : types) {
+                            if (type.isAnnotation()) {
+                                handlesTypesAnnotations = true;
+                            } else {
+                                handlesTypesNonAnnotations = true;
+                            }
+                            Set<ServletContainerInitializer> scis = typeInitializerMap
+                                    .get(type);
+                            if (scis == null) {
+                                scis = new HashSet<ServletContainerInitializer>();
+                                typeInitializerMap.put(type, scis);
+                            }
+                            scis.add(sci);
                         }
-                        Set<ServletContainerInitializer> scis =
-                            typeInitializerMap.get(type);
-                        if (scis == null) {
-                            scis = new HashSet<ServletContainerInitializer>();
-                            typeInitializerMap.put(type, scis);
-                        }
-                        scis.add(sci);
                     }
                 }
             }
-
         }
     }
 
@@ -1634,19 +1629,28 @@ public class ContextConfig implements LifecycleListener {
      * @return      The class name
      * @throws IOException
      */
-    protected ServletContainerInitializer getServletContainerInitializer(
+    protected List<ServletContainerInitializer> getServletContainerInitializers(
             InputStream is) throws IOException {
 
-        String className = null;
+        List<ServletContainerInitializer> initializers = new ArrayList<ServletContainerInitializer>();
 
         if (is != null) {
             String line = null;
             try {
-                BufferedReader br =
-                    new BufferedReader(new InputStreamReader(is, "UTF-8"));
-                line = br.readLine();
-                if (line != null && line.trim().length() > 0) {
-                    className = line.trim();
+                BufferedReader br = new BufferedReader(new InputStreamReader(
+                        is, "UTF-8"));
+                while ((line = br.readLine()) != null) {
+                    line = line.trim();
+                    if (line.length() > 0) {
+                        int i = line.indexOf('#');
+                        if (i > -1) {
+                            if (i == 0) {
+                                continue;
+                            }
+                            line = line.substring(0, i).trim();
+                        }
+                        initializers.add(getServletContainerInitializer(line));
+                    }
                 }
             } catch (UnsupportedEncodingException e) {
                 // Should never happen with UTF-8
@@ -1654,11 +1658,16 @@ public class ContextConfig implements LifecycleListener {
             }
         }
 
+        return initializers;
+    }
+
+    protected ServletContainerInitializer getServletContainerInitializer(
+            String className) throws IOException {
         ServletContainerInitializer sci = null;
         try {
-            Class<?> clazz = Class.forName(className,true,
-                    context.getLoader().getClassLoader());
-             sci = (ServletContainerInitializer) clazz.newInstance();
+            Class<?> clazz = Class.forName(className, true, context.getLoader()
+                    .getClassLoader());
+            sci = (ServletContainerInitializer) clazz.newInstance();
         } catch (ClassNotFoundException e) {
             log.error(sm.getString("contextConfig.invalidSci", className), e);
             throw new IOException(e);

@@ -73,7 +73,7 @@ import org.apache.tomcat.util.res.StringManager;
  *
  * @author Craig R. McClanahan
  * @author Remy Maucherat
- * @version $Id: HostConfig.java 1441344 2013-02-01 08:47:40Z kkolinko $
+ * @version $Id: HostConfig.java 1482312 2013-05-14 12:02:30Z markt $
  */
 public class HostConfig
     implements LifecycleListener {
@@ -297,9 +297,6 @@ public class HostConfig
     @Override
     public void lifecycleEvent(LifecycleEvent event) {
 
-        if (event.getType().equals(Lifecycle.PERIODIC_EVENT))
-            check();
-
         // Identify the host we are associated with
         try {
             host = (Host) event.getLifecycle();
@@ -314,11 +311,13 @@ public class HostConfig
         }
 
         // Process the event that has occurred
-        if (event.getType().equals(Lifecycle.START_EVENT))
+        if (event.getType().equals(Lifecycle.PERIODIC_EVENT)) {
+            check();
+        } else if (event.getType().equals(Lifecycle.START_EVENT)) {
             start();
-        else if (event.getType().equals(Lifecycle.STOP_EVENT))
+        } else if (event.getType().equals(Lifecycle.STOP_EVENT)) {
             stop();
-
+        }
     }
 
 
@@ -1458,9 +1457,8 @@ public class HostConfig
         DeployedApplication app = deployed.get(name);
         if (app != null) {
             checkResources(app);
-        } else {
-            deployApps(name);
         }
+        deployApps(name);
     }
 
     /**

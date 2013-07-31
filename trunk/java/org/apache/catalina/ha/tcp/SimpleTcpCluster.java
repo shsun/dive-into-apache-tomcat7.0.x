@@ -73,7 +73,7 @@ import org.apache.tomcat.util.res.StringManager;
  * @author Filip Hanik
  * @author Remy Maucherat
  * @author Peter Rossbach
- * @version $Id: SimpleTcpCluster.java 1463105 2013-04-01 07:38:26Z kfujino $
+ * @version $Id: SimpleTcpCluster.java 1505638 2013-07-22 09:28:04Z kfujino $
  */
 public class SimpleTcpCluster extends LifecycleMBeanBase
         implements CatalinaCluster, LifecycleListener, IDynamicProperty,
@@ -1032,6 +1032,7 @@ public class SimpleTcpCluster extends LifecycleMBeanBase
     }
 
     private void unregisterMember(Member member) {
+        if (member == null) return;
         ObjectName oname = memberOnameMap.remove(member);
         if (oname != null) {
             unregister(oname);
