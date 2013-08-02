@@ -12,3 +12,4 @@ foo*
 target
 doc/*.doc*
 launch/logs/*
+launch/work/*
