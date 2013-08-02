@@ -166,7 +166,7 @@ public class JDTCompiler extends org.apache.jasper.compiler.Compiler {
                 return result;
             }
 
-            @Override
+            /*@Override*/
             public boolean ignoreOptionalProblems() {
                 return false;
             }

@@ -10,10 +10,7 @@ import javax.servlet.http.HttpServletResponse;
 import com.youdo.vo.partner.AdClient;
 import com.youdo.vo.partner.AdCookie;
 import com.youdo.vo.partner.Visitor;
-import com.youku.ad.cast.entity.CampCookie;
-import com.youku.ad.objects.MIdea;
-import com.youku.ad.userTrack.UserTrack;
-import com.youku.ad.util.CookieManager;
+
 
 /**
  * 
