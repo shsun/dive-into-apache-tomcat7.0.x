@@ -5,11 +5,7 @@ import java.io.PrintWriter;
 
 import javax.servlet.http.HttpServletResponse;
 
-import org.apache.log4j.Logger;
-
 public class AjaxOut {
-	
-	private static Logger logger = Logger.getLogger(AjaxOut.class);
 	
 	/**
 	 * AJAX输出页面
@@ -29,7 +25,7 @@ public class AjaxOut {
 			out.print(s);
 			out.close();
 		} catch (IOException e) {
-			logger.error(e.getMessage(), e);
+			//logger.error(e.getMessage(), e);
 		}
 	}
 }

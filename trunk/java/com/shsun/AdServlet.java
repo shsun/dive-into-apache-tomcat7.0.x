@@ -11,6 +11,7 @@ import javax.servlet.http.HttpServletResponse;
 import com.shsun.vo.http.IAdHttpRequestParameter;
 import com.shsun.vo.http.MobileAdHttpRequestParameter;
 import com.shsun.vo.http.PCAdHttpRequestParameter;
+import com.youdo.util.io.AjaxOut;
 
 /**
  * 
@@ -42,6 +43,7 @@ public class AdServlet extends HttpServlet {
 		IAdHttpRequestParameter parameter = ("1".equals(request.getParameter("m"))) ? new MobileAdHttpRequestParameter(request, response) : new PCAdHttpRequestParameter(request, response);
 		
 		
+		AjaxOut.responseText(parameter.getHttpServletResponse(), "");
 		
 	}
 
