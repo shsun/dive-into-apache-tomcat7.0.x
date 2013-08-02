@@ -1,6 +1,13 @@
-*.class
-
-# Package Files #
-*.jar
-*.war
-*.ear
+.classpath
+.project
+.gitignore
+.gitignore.swp
+bin
+.settings
+upgrade.sh
+pom.xml
+ssh-proxy-2-10.103.51.113.py
+tools
+foo*
+target
+doc/*.doc*
